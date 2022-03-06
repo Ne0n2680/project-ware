@@ -1,0 +1,3592 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+
+	Utg = Instance.new("ScreenGui")
+	Frame = Instance.new("Frame")
+	ScriptsPage = Instance.new("Frame")
+	ImageLabel = Instance.new("ImageLabel")
+	SearchBarScripts = Instance.new("TextBox")
+	ScrollingFrame = Instance.new("ScrollingFrame")
+	UIListLayout = Instance.new("UIListLayout")
+	TextLabel = Instance.new("TextLabel")
+	UICorner = Instance.new("UICorner")
+	ScriptName = Instance.new("TextLabel")
+	DestructionName = Instance.new("TextLabel")
+	TextButton = Instance.new("TextButton")
+	UICorner_2 = Instance.new("UICorner")
+	TextLabel_2 = Instance.new("TextLabel")
+	UICorner_3 = Instance.new("UICorner")
+	ScriptName_2 = Instance.new("TextLabel")
+	DestructionName_2 = Instance.new("TextLabel")
+	TextButton_2 = Instance.new("TextButton")
+	UICorner_4 = Instance.new("UICorner")
+	TextLabel_3 = Instance.new("TextLabel")
+	UICorner_5 = Instance.new("UICorner")
+	ScriptName_3 = Instance.new("TextLabel")
+	DestructionName_3 = Instance.new("TextLabel")
+	TextButton_3 = Instance.new("TextButton")
+	UICorner_6 = Instance.new("UICorner")
+	TextLabel_4 = Instance.new("TextLabel")
+	UICorner_7 = Instance.new("UICorner")
+	ScriptName_4 = Instance.new("TextLabel")
+	DestructionName_4 = Instance.new("TextLabel")
+	TextButton_4 = Instance.new("TextButton")
+	UICorner_8 = Instance.new("UICorner")
+	TextLabel_5 = Instance.new("TextLabel")
+	UICorner_9 = Instance.new("UICorner")
+	ScriptName_5 = Instance.new("TextLabel")
+	DestructionName_5 = Instance.new("TextLabel")
+	TextButton_5 = Instance.new("TextButton")
+	UICorner_10 = Instance.new("UICorner")
+	TextLabel_6 = Instance.new("TextLabel")
+	UICorner_11 = Instance.new("UICorner")
+	ScriptName_6 = Instance.new("TextLabel")
+	DestructionName_6 = Instance.new("TextLabel")
+	TextButton_6 = Instance.new("TextButton")
+	UICorner_12 = Instance.new("UICorner")
+	TextLabel_7 = Instance.new("TextLabel")
+	UICorner_13 = Instance.new("UICorner")
+	ScriptName_7 = Instance.new("TextLabel")
+	DestructionName_7 = Instance.new("TextLabel")
+	TextButton_7 = Instance.new("TextButton")
+	UICorner_14 = Instance.new("UICorner")
+	TextLabel_8 = Instance.new("TextLabel")
+	UICorner_15 = Instance.new("UICorner")
+	ScriptName_8 = Instance.new("TextLabel")
+	DestructionName_8 = Instance.new("TextLabel")
+	TextButton_8 = Instance.new("TextButton")
+	UICorner_16 = Instance.new("UICorner")
+	TextLabel_9 = Instance.new("TextLabel")
+	UICorner_17 = Instance.new("UICorner")
+	ScriptName_9 = Instance.new("TextLabel")
+	DestructionName_9 = Instance.new("TextLabel")
+	TextButton_9 = Instance.new("TextButton")
+	UICorner_18 = Instance.new("UICorner")
+	TextLabel_10 = Instance.new("TextLabel")
+	UICorner_19 = Instance.new("UICorner")
+	ScriptName_10 = Instance.new("TextLabel")
+	DestructionName_10 = Instance.new("TextLabel")
+	TextButton_10 = Instance.new("TextButton")
+	UICorner_20 = Instance.new("UICorner")
+	TextLabel_11 = Instance.new("TextLabel")
+	UICorner_21 = Instance.new("UICorner")
+	ScriptName_11 = Instance.new("TextLabel")
+	DestructionName_11 = Instance.new("TextLabel")
+	TextButton_11 = Instance.new("TextButton")
+	UICorner_22 = Instance.new("UICorner")
+	TextLabel_12 = Instance.new("TextLabel")
+	UICorner_23 = Instance.new("UICorner")
+	ScriptName_12 = Instance.new("TextLabel")
+	DestructionName_12 = Instance.new("TextLabel")
+	TextButton_12 = Instance.new("TextButton")
+	UICorner_24 = Instance.new("UICorner")
+	TextLabel_13 = Instance.new("TextLabel")
+	UICorner_25 = Instance.new("UICorner")
+	ScriptName_13 = Instance.new("TextLabel")
+	DestructionName_13 = Instance.new("TextLabel")
+	TextButton_13 = Instance.new("TextButton")
+	UICorner_26 = Instance.new("UICorner")
+	TextLabel_14 = Instance.new("TextLabel")
+	UICorner_27 = Instance.new("UICorner")
+	ScriptName_14 = Instance.new("TextLabel")
+	DestructionName_14 = Instance.new("TextLabel")
+	TextButton_14 = Instance.new("TextButton")
+	UICorner_28 = Instance.new("UICorner")
+	TextLabel_15 = Instance.new("TextLabel")
+	UICorner_29 = Instance.new("UICorner")
+	ScriptName_15 = Instance.new("TextLabel")
+	DestructionName_15 = Instance.new("TextLabel")
+	TextButton_15 = Instance.new("TextButton")
+	UICorner_30 = Instance.new("UICorner")
+	TextLabel_16 = Instance.new("TextLabel")
+	UICorner_31 = Instance.new("UICorner")
+	ScriptName_16 = Instance.new("TextLabel")
+	DestructionName_16 = Instance.new("TextLabel")
+	TextButton_16 = Instance.new("TextButton")
+	UICorner_32 = Instance.new("UICorner")
+	TextLabel_17 = Instance.new("TextLabel")
+	UICorner_33 = Instance.new("UICorner")
+	ScriptName_17 = Instance.new("TextLabel")
+	DestructionName_17 = Instance.new("TextLabel")
+	TextButton_17 = Instance.new("TextButton")
+	UICorner_34 = Instance.new("UICorner")
+	TextLabel_18 = Instance.new("TextLabel")
+	UICorner_35 = Instance.new("UICorner")
+	ScriptName_18 = Instance.new("TextLabel")
+	DestructionName_18 = Instance.new("TextLabel")
+	TextButton_18 = Instance.new("TextButton")
+	UICorner_36 = Instance.new("UICorner")
+	TextLabel_19 = Instance.new("TextLabel")
+	UICorner_37 = Instance.new("UICorner")
+	ScriptName_19 = Instance.new("TextLabel")
+	DestructionName_19 = Instance.new("TextLabel")
+	TextButton_19 = Instance.new("TextButton")
+	UICorner_38 = Instance.new("UICorner")
+	TextLabel_20 = Instance.new("TextLabel")
+	UICorner_39 = Instance.new("UICorner")
+	ScriptName_20 = Instance.new("TextLabel")
+	DestructionName_20 = Instance.new("TextLabel")
+	TextButton_20 = Instance.new("TextButton")
+	UICorner_40 = Instance.new("UICorner")
+	TextLabel_21 = Instance.new("TextLabel")
+	UICorner_41 = Instance.new("UICorner")
+	ScriptName_21 = Instance.new("TextLabel")
+	DestructionName_21 = Instance.new("TextLabel")
+	TextButton_21 = Instance.new("TextButton")
+	UICorner_42 = Instance.new("UICorner")
+	TextLabel_22 = Instance.new("TextLabel")
+	UICorner_43 = Instance.new("UICorner")
+	ScriptName_22 = Instance.new("TextLabel")
+	DestructionName_22 = Instance.new("TextLabel")
+	TextButton_22 = Instance.new("TextButton")
+	UICorner_44 = Instance.new("UICorner")
+	TextLabel_23 = Instance.new("TextLabel")
+	UICorner_45 = Instance.new("UICorner")
+	ScriptName_23 = Instance.new("TextLabel")
+	DestructionName_23 = Instance.new("TextLabel")
+	TextButton_23 = Instance.new("TextButton")
+	UICorner_46 = Instance.new("UICorner")
+	TextLabel_24 = Instance.new("TextLabel")
+	UICorner_47 = Instance.new("UICorner")
+	ScriptName_24 = Instance.new("TextLabel")
+	DestructionName_24 = Instance.new("TextLabel")
+	TextButton_24 = Instance.new("TextButton")
+	UICorner_48 = Instance.new("UICorner")
+	TextLabel_25 = Instance.new("TextLabel")
+	UICorner_49 = Instance.new("UICorner")
+	ScriptName_25 = Instance.new("TextLabel")
+	DestructionName_25 = Instance.new("TextLabel")
+	TextButton_25 = Instance.new("TextButton")
+	UICorner_50 = Instance.new("UICorner")
+	TextLabel_26 = Instance.new("TextLabel")
+	UICorner_51 = Instance.new("UICorner")
+	ScriptName_26 = Instance.new("TextLabel")
+	DestructionName_26 = Instance.new("TextLabel")
+	TextButton_26 = Instance.new("TextButton")
+	UICorner_52 = Instance.new("UICorner")
+	TextLabel_27 = Instance.new("TextLabel")
+	UICorner_53 = Instance.new("UICorner")
+	ScriptName_27 = Instance.new("TextLabel")
+	DestructionName_27 = Instance.new("TextLabel")
+	TextButton_27 = Instance.new("TextButton")
+	UICorner_54 = Instance.new("UICorner")
+	TextLabel_28 = Instance.new("TextLabel")
+	UICorner_55 = Instance.new("UICorner")
+	ScriptName_28 = Instance.new("TextLabel")
+	DestructionName_28 = Instance.new("TextLabel")
+	TextButton_28 = Instance.new("TextButton")
+	UICorner_56 = Instance.new("UICorner")
+	TextLabel_29 = Instance.new("TextLabel")
+	UICorner_57 = Instance.new("UICorner")
+	ScriptName_29 = Instance.new("TextLabel")
+	DestructionName_29 = Instance.new("TextLabel")
+	TextButton_29 = Instance.new("TextButton")
+	UICorner_58 = Instance.new("UICorner")
+	TextLabel_30 = Instance.new("TextLabel")
+	UICorner_59 = Instance.new("UICorner")
+	ScriptName_30 = Instance.new("TextLabel")
+	DestructionName_30 = Instance.new("TextLabel")
+	TextButton_30 = Instance.new("TextButton")
+	UICorner_60 = Instance.new("UICorner")
+	TextLabel_31 = Instance.new("TextLabel")
+	UICorner_61 = Instance.new("UICorner")
+	ScriptName_31 = Instance.new("TextLabel")
+	DestructionName_31 = Instance.new("TextLabel")
+	TextButton_31 = Instance.new("TextButton")
+	UICorner_62 = Instance.new("UICorner")
+	TextLabel_32 = Instance.new("TextLabel")
+	UICorner_63 = Instance.new("UICorner")
+	ScriptName_32 = Instance.new("TextLabel")
+	DestructionName_32 = Instance.new("TextLabel")
+	TextButton_32 = Instance.new("TextButton")
+	UICorner_64 = Instance.new("UICorner")
+	TextLabel_33 = Instance.new("TextLabel")
+	UICorner_65 = Instance.new("UICorner")
+	ScriptName_33 = Instance.new("TextLabel")
+	DestructionName_33 = Instance.new("TextLabel")
+	TextButton_33 = Instance.new("TextButton")
+	UICorner_66 = Instance.new("UICorner")
+	TextLabel_34 = Instance.new("TextLabel")
+	UICorner_67 = Instance.new("UICorner")
+	ScriptName_34 = Instance.new("TextLabel")
+	DestructionName_34 = Instance.new("TextLabel")
+	TextButton_34 = Instance.new("TextButton")
+	UICorner_68 = Instance.new("UICorner")
+	TextLabel_35 = Instance.new("TextLabel")
+	UICorner_69 = Instance.new("UICorner")
+	ScriptName_35 = Instance.new("TextLabel")
+	DestructionName_35 = Instance.new("TextLabel")
+	TextButton_35 = Instance.new("TextButton")
+	UICorner_70 = Instance.new("UICorner")
+	TextLabel_36 = Instance.new("TextLabel")
+	UICorner_71 = Instance.new("UICorner")
+	ScriptName_36 = Instance.new("TextLabel")
+	DestructionName_36 = Instance.new("TextLabel")
+	TextButton_36 = Instance.new("TextButton")
+	UICorner_72 = Instance.new("UICorner")
+	TextLabel_37 = Instance.new("TextLabel")
+	UICorner_73 = Instance.new("UICorner")
+	ScriptName_37 = Instance.new("TextLabel")
+	DestructionName_37 = Instance.new("TextLabel")
+	TextButton_37 = Instance.new("TextButton")
+	UICorner_74 = Instance.new("UICorner")
+	TextLabel_38 = Instance.new("TextLabel")
+	UICorner_75 = Instance.new("UICorner")
+	ScriptName_38 = Instance.new("TextLabel")
+	DestructionName_38 = Instance.new("TextLabel")
+	TextButton_38 = Instance.new("TextButton")
+	UICorner_76 = Instance.new("UICorner")
+	TextLabel_39 = Instance.new("TextLabel")
+	UICorner_77 = Instance.new("UICorner")
+	ScriptName_39 = Instance.new("TextLabel")
+	DestructionName_39 = Instance.new("TextLabel")
+	TextButton_39 = Instance.new("TextButton")
+	UICorner_78 = Instance.new("UICorner")
+	TextLabel_40 = Instance.new("TextLabel")
+	UICorner_79 = Instance.new("UICorner")
+	ScriptName_40 = Instance.new("TextLabel")
+	DestructionName_40 = Instance.new("TextLabel")
+	TextButton_40 = Instance.new("TextButton")
+	UICorner_80 = Instance.new("UICorner")
+	TextLabel_41 = Instance.new("TextLabel")
+	UICorner_81 = Instance.new("UICorner")
+	ScriptName_41 = Instance.new("TextLabel")
+	DestructionName_41 = Instance.new("TextLabel")
+	TextButton_41 = Instance.new("TextButton")
+	UICorner_82 = Instance.new("UICorner")
+	TextLabel_42 = Instance.new("TextLabel")
+	UICorner_83 = Instance.new("UICorner")
+	ScriptName_42 = Instance.new("TextLabel")
+	DestructionName_42 = Instance.new("TextLabel")
+	TextButton_42 = Instance.new("TextButton")
+	UICorner_84 = Instance.new("UICorner")
+	TextLabel_43 = Instance.new("TextLabel")
+	UICorner_85 = Instance.new("UICorner")
+	ScriptName_43 = Instance.new("TextLabel")
+	DestructionName_43 = Instance.new("TextLabel")
+	TextButton_43 = Instance.new("TextButton")
+	UICorner_86 = Instance.new("UICorner")
+	TextLabel_44 = Instance.new("TextLabel")
+	UICorner_87 = Instance.new("UICorner")
+	ScriptName_44 = Instance.new("TextLabel")
+	DestructionName_44 = Instance.new("TextLabel")
+	TextButton_44 = Instance.new("TextButton")
+	UICorner_88 = Instance.new("UICorner")
+	TextLabel_45 = Instance.new("TextLabel")
+	UICorner_89 = Instance.new("UICorner")
+	ScriptName_45 = Instance.new("TextLabel")
+	DestructionName_45 = Instance.new("TextLabel")
+	TextButton_45 = Instance.new("TextButton")
+	UICorner_90 = Instance.new("UICorner")
+	TextLabel_46 = Instance.new("TextLabel")
+	UICorner_91 = Instance.new("UICorner")
+	ScriptName_46 = Instance.new("TextLabel")
+	DestructionName_46 = Instance.new("TextLabel")
+	TextButton_46 = Instance.new("TextButton")
+	UICorner_92 = Instance.new("UICorner")
+	TextLabel_47 = Instance.new("TextLabel")
+	UICorner_93 = Instance.new("UICorner")
+	ScriptName_47 = Instance.new("TextLabel")
+	DestructionName_47 = Instance.new("TextLabel")
+	TextButton_47 = Instance.new("TextButton")
+	UICorner_94 = Instance.new("UICorner")
+	TextLabel_48 = Instance.new("TextLabel")
+	UICorner_95 = Instance.new("UICorner")
+	ScriptName_48 = Instance.new("TextLabel")
+	DestructionName_48 = Instance.new("TextLabel")
+	TextButton_48 = Instance.new("TextButton")
+	UICorner_96 = Instance.new("UICorner")
+	TextLabel_49 = Instance.new("TextLabel")
+	UICorner_97 = Instance.new("UICorner")
+	ScriptName_49 = Instance.new("TextLabel")
+	DestructionName_49 = Instance.new("TextLabel")
+	TextButton_49 = Instance.new("TextButton")
+	UICorner_98 = Instance.new("UICorner")
+	DropShadow = Instance.new("ImageLabel")
+	TextButton_50 = Instance.new("TextButton")
+	UICorner_99 = Instance.new("UICorner")
+	TextButton_51 = Instance.new("TextButton")
+	UICorner_100 = Instance.new("UICorner")
+	TextLabel_50 = Instance.new("TextLabel")
+	name = Instance.new("TextLabel")
+	local version = Instance.new("TextLabel")
+	DropShadow_2 = Instance.new("ImageLabel")
+
+
+--Properties:
+
+Utg.Name = "Utg"
+Utg.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Utg.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Utg
+Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.39561519, 0, 0.219312608, 0)
+Frame.Size = UDim2.new(0, 353, 0, 370)
+
+ScriptsPage.Name = "ScriptsPage"
+ScriptsPage.Parent = Frame
+ScriptsPage.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ScriptsPage.BorderSizePixel = 0
+ScriptsPage.Position = UDim2.new(0.0499423184, 0, 0.145945951, 0)
+ScriptsPage.Size = UDim2.new(0, 317, 0, 303)
+
+ImageLabel.Parent = ScriptsPage
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.870662451, 0, 0.0230769236, 0)
+ImageLabel.Size = UDim2.new(0, 27, 0, 25)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=395920720"
+ImageLabel.ImageColor3 = Color3.fromRGB(65, 65, 65)
+
+SearchBarScripts.Name = "SearchBarScripts"
+SearchBarScripts.Parent = ScriptsPage
+SearchBarScripts.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+SearchBarScripts.BorderSizePixel = 0
+SearchBarScripts.Position = UDim2.new(0.0490393415, 0, 0.0307692308, 0)
+SearchBarScripts.Size = UDim2.new(0, 248, 0, 22)
+SearchBarScripts.Font = Enum.Font.SourceSans
+SearchBarScripts.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+SearchBarScripts.PlaceholderText = "Search"
+SearchBarScripts.Text = ""
+SearchBarScripts.TextColor3 = Color3.fromRGB(255, 85, 0)
+SearchBarScripts.TextSize = 14.000
+
+ScrollingFrame.Parent = ScriptsPage
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0473186113, 0, 0.184615433, 0)
+ScrollingFrame.Size = UDim2.new(0, 288, 0, 234)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 500, 0)
+ScrollingFrame.ScrollBarThickness = 0
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 6)
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel.BackgroundTransparency = 0.100
+TextLabel.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 283, 0, 63)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+TextLabel.TextTransparency = 1.000
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = TextLabel
+
+ScriptName.Name = "ScriptName"
+ScriptName.Parent = TextLabel
+ScriptName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName.BackgroundTransparency = 1.000
+ScriptName.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName.Size = UDim2.new(0, 81, 0, 19)
+ScriptName.Font = Enum.Font.SourceSans
+ScriptName.Text = "Grab knife V3"
+ScriptName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName.TextSize = 14.000
+
+DestructionName.Name = "DestructionName"
+DestructionName.Parent = TextLabel
+DestructionName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName.BackgroundTransparency = 1.000
+DestructionName.Position = UDim2.new(0.130742043, 0, 0.444444448, 0)
+DestructionName.Size = UDim2.new(0, 90, 0, 31)
+DestructionName.Font = Enum.Font.SourceSans
+DestructionName.Text = "\"Classic script, grab knife.\""
+DestructionName.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName.TextSize = 14.000
+
+TextButton.Parent = TextLabel
+TextButton.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton.Size = UDim2.new(0, 81, 0, 31)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 20)
+UICorner_2.Parent = TextButton
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_2.BackgroundTransparency = 0.100
+TextLabel_2.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextTransparency = 1.000
+
+UICorner_3.CornerRadius = UDim.new(0, 20)
+UICorner_3.Parent = TextLabel_2
+
+ScriptName_2.Name = "ScriptName"
+ScriptName_2.Parent = TextLabel_2
+ScriptName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_2.BackgroundTransparency = 1.000
+ScriptName_2.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_2.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_2.Font = Enum.Font.SourceSans
+ScriptName_2.Text = "The big black"
+ScriptName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_2.TextSize = 14.000
+
+DestructionName_2.Name = "DestructionName"
+DestructionName_2.Parent = TextLabel_2
+DestructionName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_2.BackgroundTransparency = 1.000
+DestructionName_2.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_2.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_2.Font = Enum.Font.SourceSans
+DestructionName_2.Text = "\"Who's affraid?\""
+DestructionName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_2.TextSize = 14.000
+
+TextButton_2.Parent = TextLabel_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_2.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_2.Size = UDim2.new(0, 81, 0, 31)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Execute"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 20)
+UICorner_4.Parent = TextButton_2
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_3.BackgroundTransparency = 0.100
+TextLabel_3.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextTransparency = 1.000
+
+UICorner_5.CornerRadius = UDim.new(0, 20)
+UICorner_5.Parent = TextLabel_3
+
+ScriptName_3.Name = "ScriptName"
+ScriptName_3.Parent = TextLabel_3
+ScriptName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_3.BackgroundTransparency = 1.000
+ScriptName_3.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_3.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_3.Font = Enum.Font.SourceSans
+ScriptName_3.Text = "SCP-106"
+ScriptName_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_3.TextSize = 14.000
+
+DestructionName_3.Name = "DestructionName"
+DestructionName_3.Parent = TextLabel_3
+DestructionName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_3.BackgroundTransparency = 1.000
+DestructionName_3.Position = UDim2.new(0.091872789, 0, 0.539682567, 0)
+DestructionName_3.Size = UDim2.new(0, 82, 0, 19)
+DestructionName_3.Font = Enum.Font.SourceSans
+DestructionName_3.Text = "\"This scares people.\""
+DestructionName_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_3.TextSize = 14.000
+
+TextButton_3.Parent = TextLabel_3
+TextButton_3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_3.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_3.Size = UDim2.new(0, 81, 0, 31)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Execute"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 20)
+UICorner_6.Parent = TextButton_3
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_4.BackgroundTransparency = 0.100
+TextLabel_4.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextTransparency = 1.000
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = TextLabel_4
+
+ScriptName_4.Name = "ScriptName"
+ScriptName_4.Parent = TextLabel_4
+ScriptName_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_4.BackgroundTransparency = 1.000
+ScriptName_4.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_4.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_4.Font = Enum.Font.SourceSans
+ScriptName_4.Text = "Eyo zen"
+ScriptName_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_4.TextSize = 14.000
+
+DestructionName_4.Name = "DestructionName"
+DestructionName_4.Parent = TextLabel_4
+DestructionName_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_4.BackgroundTransparency = 1.000
+DestructionName_4.Position = UDim2.new(0.211556152, 0, 0.507936537, 0)
+DestructionName_4.Size = UDim2.new(0, 62, 0, 19)
+DestructionName_4.Font = Enum.Font.SourceSans
+DestructionName_4.Text = "\"One of our personal favorites\""
+DestructionName_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_4.TextSize = 14.000
+
+TextButton_4.Parent = TextLabel_4
+TextButton_4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_4.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_4.Size = UDim2.new(0, 81, 0, 31)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Execute"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_4.TextSize = 14.000
+
+UICorner_8.CornerRadius = UDim.new(0, 20)
+UICorner_8.Parent = TextButton_4
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_5.BackgroundTransparency = 0.100
+TextLabel_5.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextTransparency = 1.000
+
+UICorner_9.CornerRadius = UDim.new(0, 20)
+UICorner_9.Parent = TextLabel_5
+
+ScriptName_5.Name = "ScriptName"
+ScriptName_5.Parent = TextLabel_5
+ScriptName_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_5.BackgroundTransparency = 1.000
+ScriptName_5.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_5.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_5.Font = Enum.Font.SourceSans
+ScriptName_5.Text = "Warden"
+ScriptName_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_5.TextSize = 14.000
+
+DestructionName_5.Name = "DestructionName"
+DestructionName_5.Parent = TextLabel_5
+DestructionName_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_5.BackgroundTransparency = 1.000
+DestructionName_5.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_5.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_5.Font = Enum.Font.SourceSans
+DestructionName_5.Text = "\"Cool attacks\""
+DestructionName_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_5.TextSize = 14.000
+
+TextButton_5.Parent = TextLabel_5
+TextButton_5.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_5.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_5.Size = UDim2.new(0, 81, 0, 31)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Execute"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_5.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 20)
+UICorner_10.Parent = TextButton_5
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_6.BackgroundTransparency = 0.100
+TextLabel_6.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextTransparency = 1.000
+
+UICorner_11.CornerRadius = UDim.new(0, 20)
+UICorner_11.Parent = TextLabel_6
+
+ScriptName_6.Name = "ScriptName"
+ScriptName_6.Parent = TextLabel_6
+ScriptName_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_6.BackgroundTransparency = 1.000
+ScriptName_6.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_6.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_6.Font = Enum.Font.SourceSans
+ScriptName_6.Text = "The mask"
+ScriptName_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_6.TextSize = 14.000
+
+DestructionName_6.Name = "DestructionName"
+DestructionName_6.Parent = TextLabel_6
+DestructionName_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_6.BackgroundTransparency = 1.000
+DestructionName_6.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_6.Size = UDim2.new(0, 97, 0, 19)
+DestructionName_6.Font = Enum.Font.SourceSans
+DestructionName_6.Text = "\"Nice animations\""
+DestructionName_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_6.TextSize = 14.000
+
+TextButton_6.Parent = TextLabel_6
+TextButton_6.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_6.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_6.Size = UDim2.new(0, 81, 0, 31)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Execute"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_6.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 20)
+UICorner_12.Parent = TextButton_6
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_7.BackgroundTransparency = 0.100
+TextLabel_7.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextTransparency = 1.000
+
+UICorner_13.CornerRadius = UDim.new(0, 20)
+UICorner_13.Parent = TextLabel_7
+
+ScriptName_7.Name = "ScriptName"
+ScriptName_7.Parent = TextLabel_7
+ScriptName_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_7.BackgroundTransparency = 1.000
+ScriptName_7.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_7.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_7.Font = Enum.Font.SourceSans
+ScriptName_7.Text = "Angel"
+ScriptName_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_7.TextSize = 14.000
+
+DestructionName_7.Name = "DestructionName"
+DestructionName_7.Parent = TextLabel_7
+DestructionName_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_7.BackgroundTransparency = 1.000
+DestructionName_7.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_7.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_7.Font = Enum.Font.SourceSans
+DestructionName_7.Text = "\"Laggy, but fun\""
+DestructionName_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_7.TextSize = 14.000
+
+TextButton_7.Parent = TextLabel_7
+TextButton_7.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_7.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_7.Size = UDim2.new(0, 81, 0, 31)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Execute"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_7.TextSize = 14.000
+
+UICorner_14.CornerRadius = UDim.new(0, 20)
+UICorner_14.Parent = TextButton_7
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_8.BackgroundTransparency = 0.100
+TextLabel_8.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ""
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextTransparency = 1.000
+
+UICorner_15.CornerRadius = UDim.new(0, 20)
+UICorner_15.Parent = TextLabel_8
+
+ScriptName_8.Name = "ScriptName"
+ScriptName_8.Parent = TextLabel_8
+ScriptName_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_8.BackgroundTransparency = 1.000
+ScriptName_8.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_8.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_8.Font = Enum.Font.SourceSans
+ScriptName_8.Text = "The sun"
+ScriptName_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_8.TextSize = 14.000
+
+DestructionName_8.Name = "DestructionName"
+DestructionName_8.Parent = TextLabel_8
+DestructionName_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_8.BackgroundTransparency = 1.000
+DestructionName_8.Position = UDim2.new(0.118374556, 0, 0.476190478, 0)
+DestructionName_8.Size = UDim2.new(0, 87, 0, 19)
+DestructionName_8.Font = Enum.Font.SourceSans
+DestructionName_8.Text = "\"The sun is a deadly laser\""
+DestructionName_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_8.TextSize = 14.000
+
+TextButton_8.Parent = TextLabel_8
+TextButton_8.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_8.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_8.Size = UDim2.new(0, 81, 0, 31)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Execute"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_8.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0, 20)
+UICorner_16.Parent = TextButton_8
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_9.BackgroundTransparency = 0.100
+TextLabel_9.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextTransparency = 1.000
+
+UICorner_17.CornerRadius = UDim.new(0, 20)
+UICorner_17.Parent = TextLabel_9
+
+ScriptName_9.Name = "ScriptName"
+ScriptName_9.Parent = TextLabel_9
+ScriptName_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_9.BackgroundTransparency = 1.000
+ScriptName_9.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_9.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_9.Font = Enum.Font.SourceSans
+ScriptName_9.Text = "Cop"
+ScriptName_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_9.TextSize = 14.000
+
+DestructionName_9.Name = "DestructionName"
+DestructionName_9.Parent = TextLabel_9
+DestructionName_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_9.BackgroundTransparency = 1.000
+DestructionName_9.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_9.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_9.Font = Enum.Font.SourceSans
+DestructionName_9.Text = "\"Anti-OD corp.\""
+DestructionName_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_9.TextSize = 14.000
+
+TextButton_9.Parent = TextLabel_9
+TextButton_9.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_9.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_9.Size = UDim2.new(0, 81, 0, 31)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Execute"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_9.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0, 20)
+UICorner_18.Parent = TextButton_9
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_10.BackgroundTransparency = 0.100
+TextLabel_10.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = ""
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextTransparency = 1.000
+
+UICorner_19.CornerRadius = UDim.new(0, 20)
+UICorner_19.Parent = TextLabel_10
+
+ScriptName_10.Name = "ScriptName"
+ScriptName_10.Parent = TextLabel_10
+ScriptName_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_10.BackgroundTransparency = 1.000
+ScriptName_10.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_10.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_10.Font = Enum.Font.SourceSans
+ScriptName_10.Text = "Dragon stand"
+ScriptName_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_10.TextSize = 14.000
+
+DestructionName_10.Name = "DestructionName"
+DestructionName_10.Parent = TextLabel_10
+DestructionName_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_10.BackgroundTransparency = 1.000
+DestructionName_10.Position = UDim2.new(0.0636042431, 0, 0.444444448, 0)
+DestructionName_10.Size = UDim2.new(0, 90, 0, 25)
+DestructionName_10.Font = Enum.Font.SourceSans
+DestructionName_10.Text = "\"This one is just cool\""
+DestructionName_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_10.TextSize = 14.000
+
+TextButton_10.Parent = TextLabel_10
+TextButton_10.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_10.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_10.Size = UDim2.new(0, 81, 0, 31)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Execute"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_10.TextSize = 14.000
+
+UICorner_20.CornerRadius = UDim.new(0, 20)
+UICorner_20.Parent = TextButton_10
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_11.BackgroundTransparency = 0.100
+TextLabel_11.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ""
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextTransparency = 1.000
+
+UICorner_21.CornerRadius = UDim.new(0, 20)
+UICorner_21.Parent = TextLabel_11
+
+ScriptName_11.Name = "ScriptName"
+ScriptName_11.Parent = TextLabel_11
+ScriptName_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_11.BackgroundTransparency = 1.000
+ScriptName_11.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_11.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_11.Font = Enum.Font.SourceSans
+ScriptName_11.Text = "Assasian"
+ScriptName_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_11.TextSize = 14.000
+
+DestructionName_11.Name = "DestructionName"
+DestructionName_11.Parent = TextLabel_11
+DestructionName_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_11.BackgroundTransparency = 1.000
+DestructionName_11.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_11.Size = UDim2.new(0, 81, 0, 19)
+DestructionName_11.Font = Enum.Font.SourceSans
+DestructionName_11.Text = "\"Arm blade\""
+DestructionName_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_11.TextSize = 14.000
+
+TextButton_11.Parent = TextLabel_11
+TextButton_11.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_11.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_11.Size = UDim2.new(0, 81, 0, 31)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Execute"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_11.TextSize = 14.000
+
+UICorner_22.CornerRadius = UDim.new(0, 20)
+UICorner_22.Parent = TextButton_11
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_12.BackgroundTransparency = 0.100
+TextLabel_12.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ""
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextTransparency = 1.000
+
+UICorner_23.CornerRadius = UDim.new(0, 20)
+UICorner_23.Parent = TextLabel_12
+
+ScriptName_12.Name = "ScriptName"
+ScriptName_12.Parent = TextLabel_12
+ScriptName_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_12.BackgroundTransparency = 1.000
+ScriptName_12.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_12.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_12.Font = Enum.Font.SourceSans
+ScriptName_12.Text = "Zenith rifle"
+ScriptName_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_12.TextSize = 14.000
+
+DestructionName_12.Name = "DestructionName"
+DestructionName_12.Parent = TextLabel_12
+DestructionName_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_12.BackgroundTransparency = 1.000
+DestructionName_12.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_12.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_12.Font = Enum.Font.SourceSans
+DestructionName_12.Text = "\"Knife, and rifle\""
+DestructionName_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_12.TextSize = 14.000
+
+TextButton_12.Parent = TextLabel_12
+TextButton_12.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_12.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_12.Size = UDim2.new(0, 81, 0, 31)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Execute"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_12.TextSize = 14.000
+
+UICorner_24.CornerRadius = UDim.new(0, 20)
+UICorner_24.Parent = TextButton_12
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_13.BackgroundTransparency = 0.100
+TextLabel_13.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ""
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextTransparency = 1.000
+
+UICorner_25.CornerRadius = UDim.new(0, 20)
+UICorner_25.Parent = TextLabel_13
+
+ScriptName_13.Name = "ScriptName"
+ScriptName_13.Parent = TextLabel_13
+ScriptName_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_13.BackgroundTransparency = 1.000
+ScriptName_13.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_13.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_13.Font = Enum.Font.SourceSans
+ScriptName_13.Text = "Ban hammer"
+ScriptName_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_13.TextSize = 14.000
+
+DestructionName_13.Name = "DestructionName"
+DestructionName_13.Parent = TextLabel_13
+DestructionName_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_13.BackgroundTransparency = 1.000
+DestructionName_13.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_13.Size = UDim2.new(0, 48, 0, 19)
+DestructionName_13.Font = Enum.Font.SourceSans
+DestructionName_13.Text = "\"BAN\""
+DestructionName_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_13.TextSize = 14.000
+
+TextButton_13.Parent = TextLabel_13
+TextButton_13.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_13.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_13.Size = UDim2.new(0, 81, 0, 31)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Execute"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_13.TextSize = 14.000
+
+UICorner_26.CornerRadius = UDim.new(0, 20)
+UICorner_26.Parent = TextButton_13
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_14.BackgroundTransparency = 0.100
+TextLabel_14.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = ""
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextTransparency = 1.000
+
+UICorner_27.CornerRadius = UDim.new(0, 20)
+UICorner_27.Parent = TextLabel_14
+
+ScriptName_14.Name = "ScriptName"
+ScriptName_14.Parent = TextLabel_14
+ScriptName_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_14.BackgroundTransparency = 1.000
+ScriptName_14.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_14.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_14.Font = Enum.Font.SourceSans
+ScriptName_14.Text = "Big sword"
+ScriptName_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_14.TextSize = 14.000
+
+DestructionName_14.Name = "DestructionName"
+DestructionName_14.Parent = TextLabel_14
+DestructionName_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_14.BackgroundTransparency = 1.000
+DestructionName_14.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_14.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_14.Font = Enum.Font.SourceSans
+DestructionName_14.Text = "\"Very large sword\""
+DestructionName_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_14.TextSize = 14.000
+
+TextButton_14.Parent = TextLabel_14
+TextButton_14.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_14.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_14.Size = UDim2.new(0, 81, 0, 31)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Execute"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_14.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0, 20)
+UICorner_28.Parent = TextButton_14
+
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_15.BackgroundTransparency = 0.100
+TextLabel_15.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = ""
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextTransparency = 1.000
+
+UICorner_29.CornerRadius = UDim.new(0, 20)
+UICorner_29.Parent = TextLabel_15
+
+ScriptName_15.Name = "ScriptName"
+ScriptName_15.Parent = TextLabel_15
+ScriptName_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_15.BackgroundTransparency = 1.000
+ScriptName_15.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_15.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_15.Font = Enum.Font.SourceSans
+ScriptName_15.Text = "God slayer"
+ScriptName_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_15.TextSize = 14.000
+
+DestructionName_15.Name = "DestructionName"
+DestructionName_15.Parent = TextLabel_15
+DestructionName_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_15.BackgroundTransparency = 1.000
+DestructionName_15.Position = UDim2.new(0.0706713796, 0, 0.539682567, 0)
+DestructionName_15.Size = UDim2.new(0, 107, 0, 19)
+DestructionName_15.Font = Enum.Font.SourceSans
+DestructionName_15.Text = "\"This one is over powered\""
+DestructionName_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_15.TextSize = 14.000
+
+TextButton_15.Parent = TextLabel_15
+TextButton_15.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_15.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_15.Size = UDim2.new(0, 81, 0, 31)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Execute"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_15.TextSize = 14.000
+
+UICorner_30.CornerRadius = UDim.new(0, 20)
+UICorner_30.Parent = TextButton_15
+
+TextLabel_16.Parent = ScrollingFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_16.BackgroundTransparency = 0.100
+TextLabel_16.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = ""
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextTransparency = 1.000
+
+UICorner_31.CornerRadius = UDim.new(0, 20)
+UICorner_31.Parent = TextLabel_16
+
+ScriptName_16.Name = "ScriptName"
+ScriptName_16.Parent = TextLabel_16
+ScriptName_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_16.BackgroundTransparency = 1.000
+ScriptName_16.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_16.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_16.Font = Enum.Font.SourceSans
+ScriptName_16.Text = "Caducus"
+ScriptName_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_16.TextSize = 14.000
+
+DestructionName_16.Name = "DestructionName"
+DestructionName_16.Parent = TextLabel_16
+DestructionName_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_16.BackgroundTransparency = 1.000
+DestructionName_16.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_16.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_16.Font = Enum.Font.SourceSans
+DestructionName_16.Text = "\"Demon creature\""
+DestructionName_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_16.TextSize = 14.000
+
+TextButton_16.Parent = TextLabel_16
+TextButton_16.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_16.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_16.Size = UDim2.new(0, 81, 0, 31)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Execute"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_16.TextSize = 14.000
+
+UICorner_32.CornerRadius = UDim.new(0, 20)
+UICorner_32.Parent = TextButton_16
+
+TextLabel_17.Parent = ScrollingFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_17.BackgroundTransparency = 0.100
+TextLabel_17.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_17.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = ""
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextTransparency = 1.000
+
+UICorner_33.CornerRadius = UDim.new(0, 20)
+UICorner_33.Parent = TextLabel_17
+
+ScriptName_17.Name = "ScriptName"
+ScriptName_17.Parent = TextLabel_17
+ScriptName_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_17.BackgroundTransparency = 1.000
+ScriptName_17.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_17.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_17.Font = Enum.Font.SourceSans
+ScriptName_17.Text = "Claws"
+ScriptName_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_17.TextSize = 14.000
+
+DestructionName_17.Name = "DestructionName"
+DestructionName_17.Parent = TextLabel_17
+DestructionName_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_17.BackgroundTransparency = 1.000
+DestructionName_17.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_17.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_17.Font = Enum.Font.SourceSans
+DestructionName_17.Text = "\"Another classic\""
+DestructionName_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_17.TextSize = 14.000
+
+TextButton_17.Parent = TextLabel_17
+TextButton_17.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_17.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_17.Size = UDim2.new(0, 81, 0, 31)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "Execute"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_17.TextSize = 14.000
+
+UICorner_34.CornerRadius = UDim.new(0, 20)
+UICorner_34.Parent = TextButton_17
+
+TextLabel_18.Parent = ScrollingFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_18.BackgroundTransparency = 0.100
+TextLabel_18.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = ""
+TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextTransparency = 1.000
+
+UICorner_35.CornerRadius = UDim.new(0, 20)
+UICorner_35.Parent = TextLabel_18
+
+ScriptName_18.Name = "ScriptName"
+ScriptName_18.Parent = TextLabel_18
+ScriptName_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_18.BackgroundTransparency = 1.000
+ScriptName_18.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_18.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_18.Font = Enum.Font.SourceSans
+ScriptName_18.Text = "Star glitcher"
+ScriptName_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_18.TextSize = 14.000
+
+DestructionName_18.Name = "DestructionName"
+DestructionName_18.Parent = TextLabel_18
+DestructionName_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_18.BackgroundTransparency = 1.000
+DestructionName_18.Position = UDim2.new(0.0636042431, 0, 0.539682567, 0)
+DestructionName_18.Size = UDim2.new(0, 103, 0, 19)
+DestructionName_18.Font = Enum.Font.SourceSans
+DestructionName_18.Text = "\"This one is really cool\""
+DestructionName_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_18.TextSize = 14.000
+
+TextButton_18.Parent = TextLabel_18
+TextButton_18.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_18.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_18.Size = UDim2.new(0, 81, 0, 31)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Execute"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_18.TextSize = 14.000
+
+UICorner_36.CornerRadius = UDim.new(0, 20)
+UICorner_36.Parent = TextButton_18
+
+TextLabel_19.Parent = ScrollingFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_19.BackgroundTransparency = 0.100
+TextLabel_19.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_19.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = ""
+TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextTransparency = 1.000
+
+UICorner_37.CornerRadius = UDim.new(0, 20)
+UICorner_37.Parent = TextLabel_19
+
+ScriptName_19.Name = "ScriptName"
+ScriptName_19.Parent = TextLabel_19
+ScriptName_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_19.BackgroundTransparency = 1.000
+ScriptName_19.Position = UDim2.new(0.0706713796, 0, 0.0793650821, 0)
+ScriptName_19.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_19.Font = Enum.Font.SourceSans
+ScriptName_19.Text = "Madiik flame thrower"
+ScriptName_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_19.TextSize = 14.000
+
+DestructionName_19.Name = "DestructionName"
+DestructionName_19.Parent = TextLabel_19
+DestructionName_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_19.BackgroundTransparency = 1.000
+DestructionName_19.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_19.Size = UDim2.new(0, 133, 0, 19)
+DestructionName_19.Font = Enum.Font.SourceSans
+DestructionName_19.Text = "\"Light the children on fire\""
+DestructionName_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_19.TextSize = 14.000
+
+TextButton_19.Parent = TextLabel_19
+TextButton_19.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_19.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_19.Size = UDim2.new(0, 81, 0, 31)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Execute"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_19.TextSize = 14.000
+
+UICorner_38.CornerRadius = UDim.new(0, 20)
+UICorner_38.Parent = TextButton_19
+
+TextLabel_20.Parent = ScrollingFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_20.BackgroundTransparency = 0.100
+TextLabel_20.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = ""
+TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextTransparency = 1.000
+
+UICorner_39.CornerRadius = UDim.new(0, 20)
+UICorner_39.Parent = TextLabel_20
+
+ScriptName_20.Name = "ScriptName"
+ScriptName_20.Parent = TextLabel_20
+ScriptName_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_20.BackgroundTransparency = 1.000
+ScriptName_20.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_20.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_20.Font = Enum.Font.SourceSans
+ScriptName_20.Text = "Grab knife V4"
+ScriptName_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_20.TextSize = 14.000
+
+DestructionName_20.Name = "DestructionName"
+DestructionName_20.Parent = TextLabel_20
+DestructionName_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_20.BackgroundTransparency = 1.000
+DestructionName_20.Position = UDim2.new(0.0636042431, 0, 0.539682567, 0)
+DestructionName_20.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_20.Font = Enum.Font.SourceSans
+DestructionName_20.Text = "\"Yet, another classic\""
+DestructionName_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_20.TextSize = 14.000
+
+TextButton_20.Parent = TextLabel_20
+TextButton_20.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_20.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_20.Size = UDim2.new(0, 81, 0, 31)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Execute"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_20.TextSize = 14.000
+
+UICorner_40.CornerRadius = UDim.new(0, 20)
+UICorner_40.Parent = TextButton_20
+
+TextLabel_21.Parent = ScrollingFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_21.BackgroundTransparency = 0.100
+TextLabel_21.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_21.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = ""
+TextLabel_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextTransparency = 1.000
+
+UICorner_41.CornerRadius = UDim.new(0, 20)
+UICorner_41.Parent = TextLabel_21
+
+ScriptName_21.Name = "ScriptName"
+ScriptName_21.Parent = TextLabel_21
+ScriptName_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_21.BackgroundTransparency = 1.000
+ScriptName_21.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_21.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_21.Font = Enum.Font.SourceSans
+ScriptName_21.Text = "Omni god"
+ScriptName_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_21.TextSize = 14.000
+
+DestructionName_21.Name = "DestructionName"
+DestructionName_21.Parent = TextLabel_21
+DestructionName_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_21.BackgroundTransparency = 1.000
+DestructionName_21.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_21.Size = UDim2.new(0, 116, 0, 19)
+DestructionName_21.Font = Enum.Font.SourceSans
+DestructionName_21.Text = "\"Mix of two god scripts\""
+DestructionName_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_21.TextSize = 14.000
+
+TextButton_21.Parent = TextLabel_21
+TextButton_21.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_21.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_21.Size = UDim2.new(0, 81, 0, 31)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Execute"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_21.TextSize = 14.000
+
+UICorner_42.CornerRadius = UDim.new(0, 20)
+UICorner_42.Parent = TextButton_21
+
+TextLabel_22.Parent = ScrollingFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_22.BackgroundTransparency = 0.100
+TextLabel_22.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_22.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = ""
+TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextTransparency = 1.000
+
+UICorner_43.CornerRadius = UDim.new(0, 20)
+UICorner_43.Parent = TextLabel_22
+
+ScriptName_22.Name = "ScriptName"
+ScriptName_22.Parent = TextLabel_22
+ScriptName_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_22.BackgroundTransparency = 1.000
+ScriptName_22.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_22.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_22.Font = Enum.Font.SourceSans
+ScriptName_22.Text = "Dark magic"
+ScriptName_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_22.TextSize = 14.000
+
+DestructionName_22.Name = "DestructionName"
+DestructionName_22.Parent = TextLabel_22
+DestructionName_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_22.BackgroundTransparency = 1.000
+DestructionName_22.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_22.Size = UDim2.new(0, 116, 0, 19)
+DestructionName_22.Font = Enum.Font.SourceSans
+DestructionName_22.Text = "\"We also like this one\""
+DestructionName_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_22.TextSize = 14.000
+
+TextButton_22.Parent = TextLabel_22
+TextButton_22.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_22.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_22.Size = UDim2.new(0, 81, 0, 31)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "Execute"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_22.TextSize = 14.000
+
+UICorner_44.CornerRadius = UDim.new(0, 20)
+UICorner_44.Parent = TextButton_22
+
+TextLabel_23.Parent = ScrollingFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_23.BackgroundTransparency = 0.100
+TextLabel_23.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_23.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = ""
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextTransparency = 1.000
+
+UICorner_45.CornerRadius = UDim.new(0, 20)
+UICorner_45.Parent = TextLabel_23
+
+ScriptName_23.Name = "ScriptName"
+ScriptName_23.Parent = TextLabel_23
+ScriptName_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_23.BackgroundTransparency = 1.000
+ScriptName_23.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_23.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_23.Font = Enum.Font.SourceSans
+ScriptName_23.Text = "Darth vader"
+ScriptName_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_23.TextSize = 14.000
+
+DestructionName_23.Name = "DestructionName"
+DestructionName_23.Parent = TextLabel_23
+DestructionName_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_23.BackgroundTransparency = 1.000
+DestructionName_23.Position = UDim2.new(0.0636042431, 0, 0.539682567, 0)
+DestructionName_23.Size = UDim2.new(0, 148, 0, 19)
+DestructionName_23.Font = Enum.Font.SourceSans
+DestructionName_23.Text = "\"Darth vader, nothing else to say\""
+DestructionName_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_23.TextSize = 14.000
+
+TextButton_23.Parent = TextLabel_23
+TextButton_23.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_23.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_23.Size = UDim2.new(0, 81, 0, 31)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Execute"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_23.TextSize = 14.000
+
+UICorner_46.CornerRadius = UDim.new(0, 20)
+UICorner_46.Parent = TextButton_23
+
+TextLabel_24.Parent = ScrollingFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_24.BackgroundTransparency = 0.100
+TextLabel_24.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_24.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = ""
+TextLabel_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextTransparency = 1.000
+
+UICorner_47.CornerRadius = UDim.new(0, 20)
+UICorner_47.Parent = TextLabel_24
+
+ScriptName_24.Name = "ScriptName"
+ScriptName_24.Parent = TextLabel_24
+ScriptName_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_24.BackgroundTransparency = 1.000
+ScriptName_24.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_24.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_24.Font = Enum.Font.SourceSans
+ScriptName_24.Text = "John doe"
+ScriptName_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_24.TextSize = 14.000
+
+DestructionName_24.Name = "DestructionName"
+DestructionName_24.Parent = TextLabel_24
+DestructionName_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_24.BackgroundTransparency = 1.000
+DestructionName_24.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_24.Size = UDim2.new(0, 155, 0, 19)
+DestructionName_24.Font = Enum.Font.SourceSans
+DestructionName_24.Text = "\"100% real, scary hacker man\""
+DestructionName_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_24.TextSize = 14.000
+
+TextButton_24.Parent = TextLabel_24
+TextButton_24.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_24.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_24.Size = UDim2.new(0, 81, 0, 31)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Execute"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_24.TextSize = 14.000
+
+UICorner_48.CornerRadius = UDim.new(0, 20)
+UICorner_48.Parent = TextButton_24
+
+TextLabel_25.Parent = ScrollingFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_25.BackgroundTransparency = 0.100
+TextLabel_25.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_25.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = ""
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextTransparency = 1.000
+
+UICorner_49.CornerRadius = UDim.new(0, 20)
+UICorner_49.Parent = TextLabel_25
+
+ScriptName_25.Name = "ScriptName"
+ScriptName_25.Parent = TextLabel_25
+ScriptName_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_25.BackgroundTransparency = 1.000
+ScriptName_25.Position = UDim2.new(0.0636042431, 0, 0.095238097, 0)
+ScriptName_25.Size = UDim2.new(0, 74, 0, 19)
+ScriptName_25.Font = Enum.Font.SourceSans
+ScriptName_25.Text = "Corrupted overseer"
+ScriptName_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_25.TextSize = 14.000
+
+DestructionName_25.Name = "DestructionName"
+DestructionName_25.Parent = TextLabel_25
+DestructionName_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_25.BackgroundTransparency = 1.000
+DestructionName_25.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_25.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_25.Font = Enum.Font.SourceSans
+DestructionName_25.Text = "\"Really cool script\""
+DestructionName_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_25.TextSize = 14.000
+
+TextButton_25.Parent = TextLabel_25
+TextButton_25.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_25.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_25.Size = UDim2.new(0, 81, 0, 31)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "Execute"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_25.TextSize = 14.000
+
+UICorner_50.CornerRadius = UDim.new(0, 20)
+UICorner_50.Parent = TextButton_25
+
+TextLabel_26.Parent = ScrollingFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_26.BackgroundTransparency = 0.100
+TextLabel_26.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_26.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_26.Font = Enum.Font.SourceSans
+TextLabel_26.Text = ""
+TextLabel_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextTransparency = 1.000
+
+UICorner_51.CornerRadius = UDim.new(0, 20)
+UICorner_51.Parent = TextLabel_26
+
+ScriptName_26.Name = "ScriptName"
+ScriptName_26.Parent = TextLabel_26
+ScriptName_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_26.BackgroundTransparency = 1.000
+ScriptName_26.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_26.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_26.Font = Enum.Font.SourceSans
+ScriptName_26.Text = "Echo"
+ScriptName_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_26.TextSize = 14.000
+
+DestructionName_26.Name = "DestructionName"
+DestructionName_26.Parent = TextLabel_26
+DestructionName_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_26.BackgroundTransparency = 1.000
+DestructionName_26.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_26.Size = UDim2.new(0, 127, 0, 19)
+DestructionName_26.Font = Enum.Font.SourceSans
+DestructionName_26.Text = "\"Nice music, cool attacks\""
+DestructionName_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_26.TextSize = 14.000
+
+TextButton_26.Parent = TextLabel_26
+TextButton_26.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_26.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_26.Size = UDim2.new(0, 81, 0, 31)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Execute"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_26.TextSize = 14.000
+
+UICorner_52.CornerRadius = UDim.new(0, 20)
+UICorner_52.Parent = TextButton_26
+
+TextLabel_27.Parent = ScrollingFrame
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_27.BackgroundTransparency = 0.100
+TextLabel_27.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_27.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = ""
+TextLabel_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextTransparency = 1.000
+
+UICorner_53.CornerRadius = UDim.new(0, 20)
+UICorner_53.Parent = TextLabel_27
+
+ScriptName_27.Name = "ScriptName"
+ScriptName_27.Parent = TextLabel_27
+ScriptName_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_27.BackgroundTransparency = 1.000
+ScriptName_27.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_27.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_27.Font = Enum.Font.SourceSans
+ScriptName_27.Text = "Guns"
+ScriptName_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_27.TextSize = 14.000
+
+DestructionName_27.Name = "DestructionName"
+DestructionName_27.Parent = TextLabel_27
+DestructionName_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_27.BackgroundTransparency = 1.000
+DestructionName_27.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_27.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_27.Font = Enum.Font.SourceSans
+DestructionName_27.Text = "\"Good for trolling\""
+DestructionName_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_27.TextSize = 14.000
+
+TextButton_27.Parent = TextLabel_27
+TextButton_27.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_27.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_27.Size = UDim2.new(0, 81, 0, 31)
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = "Execute"
+TextButton_27.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_27.TextSize = 14.000
+
+UICorner_54.CornerRadius = UDim.new(0, 20)
+UICorner_54.Parent = TextButton_27
+
+TextLabel_28.Parent = ScrollingFrame
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_28.BackgroundTransparency = 0.100
+TextLabel_28.Position = UDim2.new(-0.210069448, 0, 0.00048461539, 0)
+TextLabel_28.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = ""
+TextLabel_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextTransparency = 1.000
+
+UICorner_55.CornerRadius = UDim.new(0, 20)
+UICorner_55.Parent = TextLabel_28
+
+ScriptName_28.Name = "ScriptName"
+ScriptName_28.Parent = TextLabel_28
+ScriptName_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_28.BackgroundTransparency = 1.000
+ScriptName_28.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_28.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_28.Font = Enum.Font.SourceSans
+ScriptName_28.Text = "Bolt action"
+ScriptName_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_28.TextSize = 14.000
+
+DestructionName_28.Name = "DestructionName"
+DestructionName_28.Parent = TextLabel_28
+DestructionName_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_28.BackgroundTransparency = 1.000
+DestructionName_28.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_28.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_28.Font = Enum.Font.SourceSans
+DestructionName_28.Text = "\"Snipe the children\""
+DestructionName_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_28.TextSize = 14.000
+
+TextButton_28.Parent = TextLabel_28
+TextButton_28.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_28.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_28.Size = UDim2.new(0, 81, 0, 31)
+TextButton_28.Font = Enum.Font.SourceSans
+TextButton_28.Text = "Execute"
+TextButton_28.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_28.TextSize = 14.000
+
+UICorner_56.CornerRadius = UDim.new(0, 20)
+UICorner_56.Parent = TextButton_28
+
+TextLabel_29.Parent = ScrollingFrame
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_29.BackgroundTransparency = 0.100
+TextLabel_29.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_29.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = ""
+TextLabel_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextTransparency = 1.000
+
+UICorner_57.CornerRadius = UDim.new(0, 20)
+UICorner_57.Parent = TextLabel_29
+
+ScriptName_29.Name = "ScriptName"
+ScriptName_29.Parent = TextLabel_29
+ScriptName_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_29.BackgroundTransparency = 1.000
+ScriptName_29.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_29.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_29.Font = Enum.Font.SourceSans
+ScriptName_29.Text = "Scythe"
+ScriptName_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_29.TextSize = 14.000
+
+DestructionName_29.Name = "DestructionName"
+DestructionName_29.Parent = TextLabel_29
+DestructionName_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_29.BackgroundTransparency = 1.000
+DestructionName_29.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_29.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_29.Font = Enum.Font.SourceSans
+DestructionName_29.Text = "\"Steal their souls\""
+DestructionName_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_29.TextSize = 14.000
+
+TextButton_29.Parent = TextLabel_29
+TextButton_29.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_29.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_29.Size = UDim2.new(0, 81, 0, 31)
+TextButton_29.Font = Enum.Font.SourceSans
+TextButton_29.Text = "Execute"
+TextButton_29.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_29.TextSize = 14.000
+
+UICorner_58.CornerRadius = UDim.new(0, 20)
+UICorner_58.Parent = TextButton_29
+
+TextLabel_30.Parent = ScrollingFrame
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_30.BackgroundTransparency = 0.100
+TextLabel_30.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_30.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = ""
+TextLabel_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextTransparency = 1.000
+
+UICorner_59.CornerRadius = UDim.new(0, 20)
+UICorner_59.Parent = TextLabel_30
+
+ScriptName_30.Name = "ScriptName"
+ScriptName_30.Parent = TextLabel_30
+ScriptName_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_30.BackgroundTransparency = 1.000
+ScriptName_30.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_30.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_30.Font = Enum.Font.SourceSans
+ScriptName_30.Text = "Drone"
+ScriptName_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_30.TextSize = 14.000
+
+DestructionName_30.Name = "DestructionName"
+DestructionName_30.Parent = TextLabel_30
+DestructionName_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_30.BackgroundTransparency = 1.000
+DestructionName_30.Position = UDim2.new(0.0636042431, 0, 0.539682567, 0)
+DestructionName_30.Size = UDim2.new(0, 102, 0, 19)
+DestructionName_30.Font = Enum.Font.SourceSans
+DestructionName_30.Text = "\"Also, good for trolling\""
+DestructionName_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_30.TextSize = 14.000
+
+TextButton_30.Parent = TextLabel_30
+TextButton_30.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_30.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_30.Size = UDim2.new(0, 81, 0, 31)
+TextButton_30.Font = Enum.Font.SourceSans
+TextButton_30.Text = "Execute"
+TextButton_30.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_30.TextSize = 14.000
+
+UICorner_60.CornerRadius = UDim.new(0, 20)
+UICorner_60.Parent = TextButton_30
+
+TextLabel_31.Parent = ScrollingFrame
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_31.BackgroundTransparency = 0.100
+TextLabel_31.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_31.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = ""
+TextLabel_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_31.TextSize = 14.000
+TextLabel_31.TextTransparency = 1.000
+
+UICorner_61.CornerRadius = UDim.new(0, 20)
+UICorner_61.Parent = TextLabel_31
+
+ScriptName_31.Name = "ScriptName"
+ScriptName_31.Parent = TextLabel_31
+ScriptName_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_31.BackgroundTransparency = 1.000
+ScriptName_31.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_31.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_31.Font = Enum.Font.SourceSans
+ScriptName_31.Text = "Rainbow king"
+ScriptName_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_31.TextSize = 14.000
+
+DestructionName_31.Name = "DestructionName"
+DestructionName_31.Parent = TextLabel_31
+DestructionName_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_31.BackgroundTransparency = 1.000
+DestructionName_31.Position = UDim2.new(0.0636042431, 0, 0.539682567, 0)
+DestructionName_31.Size = UDim2.new(0, 102, 0, 19)
+DestructionName_31.Font = Enum.Font.SourceSans
+DestructionName_31.Text = "\"Really cool animations\""
+DestructionName_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_31.TextSize = 14.000
+
+TextButton_31.Parent = TextLabel_31
+TextButton_31.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_31.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_31.Size = UDim2.new(0, 81, 0, 31)
+TextButton_31.Font = Enum.Font.SourceSans
+TextButton_31.Text = "Execute"
+TextButton_31.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_31.TextSize = 14.000
+
+UICorner_62.CornerRadius = UDim.new(0, 20)
+UICorner_62.Parent = TextButton_31
+
+TextLabel_32.Parent = ScrollingFrame
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_32.BackgroundTransparency = 0.100
+TextLabel_32.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_32.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = ""
+TextLabel_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_32.TextSize = 14.000
+TextLabel_32.TextTransparency = 1.000
+
+UICorner_63.CornerRadius = UDim.new(0, 20)
+UICorner_63.Parent = TextLabel_32
+
+ScriptName_32.Name = "ScriptName"
+ScriptName_32.Parent = TextLabel_32
+ScriptName_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_32.BackgroundTransparency = 1.000
+ScriptName_32.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_32.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_32.Font = Enum.Font.SourceSans
+ScriptName_32.Text = "Minigun"
+ScriptName_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_32.TextSize = 14.000
+
+DestructionName_32.Name = "DestructionName"
+DestructionName_32.Parent = TextLabel_32
+DestructionName_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_32.BackgroundTransparency = 1.000
+DestructionName_32.Position = UDim2.new(0.091872789, 0, 0.539682567, 0)
+DestructionName_32.Size = UDim2.new(0, 74, 0, 19)
+DestructionName_32.Font = Enum.Font.SourceSans
+DestructionName_32.Text = "\"Spray some children\""
+DestructionName_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_32.TextSize = 14.000
+
+TextButton_32.Parent = TextLabel_32
+TextButton_32.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_32.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_32.Size = UDim2.new(0, 81, 0, 31)
+TextButton_32.Font = Enum.Font.SourceSans
+TextButton_32.Text = "Execute"
+TextButton_32.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_32.TextSize = 14.000
+
+UICorner_64.CornerRadius = UDim.new(0, 20)
+UICorner_64.Parent = TextButton_32
+
+TextLabel_33.Parent = ScrollingFrame
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_33.BackgroundTransparency = 0.100
+TextLabel_33.Position = UDim2.new(0.039930556, 0, -4.61538475e-05, 0)
+TextLabel_33.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_33.Font = Enum.Font.SourceSans
+TextLabel_33.Text = ""
+TextLabel_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_33.TextSize = 14.000
+TextLabel_33.TextTransparency = 1.000
+
+UICorner_65.CornerRadius = UDim.new(0, 20)
+UICorner_65.Parent = TextLabel_33
+
+ScriptName_33.Name = "ScriptName"
+ScriptName_33.Parent = TextLabel_33
+ScriptName_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_33.BackgroundTransparency = 1.000
+ScriptName_33.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_33.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_33.Font = Enum.Font.SourceSans
+ScriptName_33.Text = "Sharp shooter"
+ScriptName_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_33.TextSize = 14.000
+
+DestructionName_33.Name = "DestructionName"
+DestructionName_33.Parent = TextLabel_33
+DestructionName_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_33.BackgroundTransparency = 1.000
+DestructionName_33.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_33.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_33.Font = Enum.Font.SourceSans
+DestructionName_33.Text = "\"Simple, yet fun\""
+DestructionName_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_33.TextSize = 14.000
+
+TextButton_33.Parent = TextLabel_33
+TextButton_33.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_33.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_33.Size = UDim2.new(0, 81, 0, 31)
+TextButton_33.Font = Enum.Font.SourceSans
+TextButton_33.Text = "Execute"
+TextButton_33.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_33.TextSize = 14.000
+
+UICorner_66.CornerRadius = UDim.new(0, 20)
+UICorner_66.Parent = TextButton_33
+
+TextLabel_34.Parent = ScrollingFrame
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_34.BackgroundTransparency = 0.100
+TextLabel_34.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_34.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_34.Font = Enum.Font.SourceSans
+TextLabel_34.Text = ""
+TextLabel_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_34.TextSize = 14.000
+TextLabel_34.TextTransparency = 1.000
+
+UICorner_67.CornerRadius = UDim.new(0, 20)
+UICorner_67.Parent = TextLabel_34
+
+ScriptName_34.Name = "ScriptName"
+ScriptName_34.Parent = TextLabel_34
+ScriptName_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_34.BackgroundTransparency = 1.000
+ScriptName_34.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_34.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_34.Font = Enum.Font.SourceSans
+ScriptName_34.Text = "Scythe V2"
+ScriptName_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_34.TextSize = 14.000
+
+DestructionName_34.Name = "DestructionName"
+DestructionName_34.Parent = TextLabel_34
+DestructionName_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_34.BackgroundTransparency = 1.000
+DestructionName_34.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_34.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_34.Font = Enum.Font.SourceSans
+DestructionName_34.Text = "\"Another scythe script\""
+DestructionName_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_34.TextSize = 14.000
+
+TextButton_34.Parent = TextLabel_34
+TextButton_34.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_34.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_34.Size = UDim2.new(0, 81, 0, 31)
+TextButton_34.Font = Enum.Font.SourceSans
+TextButton_34.Text = "Execute"
+TextButton_34.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_34.TextSize = 14.000
+
+UICorner_68.CornerRadius = UDim.new(0, 20)
+UICorner_68.Parent = TextButton_34
+
+TextLabel_35.Parent = ScrollingFrame
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_35.BackgroundTransparency = 0.100
+TextLabel_35.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_35.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_35.Font = Enum.Font.SourceSans
+TextLabel_35.Text = ""
+TextLabel_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_35.TextSize = 14.000
+TextLabel_35.TextTransparency = 1.000
+
+UICorner_69.CornerRadius = UDim.new(0, 20)
+UICorner_69.Parent = TextLabel_35
+
+ScriptName_35.Name = "ScriptName"
+ScriptName_35.Parent = TextLabel_35
+ScriptName_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_35.BackgroundTransparency = 1.000
+ScriptName_35.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_35.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_35.Font = Enum.Font.SourceSans
+ScriptName_35.Text = "Wings"
+ScriptName_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_35.TextSize = 14.000
+
+DestructionName_35.Name = "DestructionName"
+DestructionName_35.Parent = TextLabel_35
+DestructionName_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_35.BackgroundTransparency = 1.000
+DestructionName_35.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_35.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_35.Font = Enum.Font.SourceSans
+DestructionName_35.Text = "\"Fly like a bird\""
+DestructionName_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_35.TextSize = 14.000
+
+TextButton_35.Parent = TextLabel_35
+TextButton_35.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_35.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_35.Size = UDim2.new(0, 81, 0, 31)
+TextButton_35.Font = Enum.Font.SourceSans
+TextButton_35.Text = "Execute"
+TextButton_35.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_35.TextSize = 14.000
+
+UICorner_70.CornerRadius = UDim.new(0, 20)
+UICorner_70.Parent = TextButton_35
+
+TextLabel_36.Parent = ScrollingFrame
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_36.BackgroundTransparency = 0.100
+TextLabel_36.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_36.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_36.Font = Enum.Font.SourceSans
+TextLabel_36.Text = ""
+TextLabel_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_36.TextSize = 14.000
+TextLabel_36.TextTransparency = 1.000
+
+UICorner_71.CornerRadius = UDim.new(0, 20)
+UICorner_71.Parent = TextLabel_36
+
+ScriptName_36.Name = "ScriptName"
+ScriptName_36.Parent = TextLabel_36
+ScriptName_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_36.BackgroundTransparency = 1.000
+ScriptName_36.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_36.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_36.Font = Enum.Font.SourceSans
+ScriptName_36.Text = "Mech suit"
+ScriptName_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_36.TextSize = 14.000
+
+DestructionName_36.Name = "DestructionName"
+DestructionName_36.Parent = TextLabel_36
+DestructionName_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_36.BackgroundTransparency = 1.000
+DestructionName_36.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_36.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_36.Font = Enum.Font.SourceSans
+DestructionName_36.Text = "\"Really buggy\""
+DestructionName_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_36.TextSize = 14.000
+
+TextButton_36.Parent = TextLabel_36
+TextButton_36.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_36.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_36.Size = UDim2.new(0, 81, 0, 31)
+TextButton_36.Font = Enum.Font.SourceSans
+TextButton_36.Text = "Execute"
+TextButton_36.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_36.TextSize = 14.000
+
+UICorner_72.CornerRadius = UDim.new(0, 20)
+UICorner_72.Parent = TextButton_36
+
+TextLabel_37.Parent = ScrollingFrame
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_37.BackgroundTransparency = 0.100
+TextLabel_37.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_37.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_37.Font = Enum.Font.SourceSans
+TextLabel_37.Text = ""
+TextLabel_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_37.TextSize = 14.000
+TextLabel_37.TextTransparency = 1.000
+
+UICorner_73.CornerRadius = UDim.new(0, 20)
+UICorner_73.Parent = TextLabel_37
+
+ScriptName_37.Name = "ScriptName"
+ScriptName_37.Parent = TextLabel_37
+ScriptName_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_37.BackgroundTransparency = 1.000
+ScriptName_37.Position = UDim2.new(0.0706713796, 0, 0, 0)
+ScriptName_37.Size = UDim2.new(0, 81, 0, 29)
+ScriptName_37.Font = Enum.Font.SourceSans
+ScriptName_37.Text = "Matteo flame thrower"
+ScriptName_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_37.TextSize = 14.000
+
+DestructionName_37.Name = "DestructionName"
+DestructionName_37.Parent = TextLabel_37
+DestructionName_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_37.BackgroundTransparency = 1.000
+DestructionName_37.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_37.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_37.Font = Enum.Font.SourceSans
+DestructionName_37.Text = "\"Burn the children\""
+DestructionName_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_37.TextSize = 14.000
+
+TextButton_37.Parent = TextLabel_37
+TextButton_37.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_37.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_37.Size = UDim2.new(0, 81, 0, 31)
+TextButton_37.Font = Enum.Font.SourceSans
+TextButton_37.Text = "Execute"
+TextButton_37.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_37.TextSize = 14.000
+
+UICorner_74.CornerRadius = UDim.new(0, 20)
+UICorner_74.Parent = TextButton_37
+
+TextLabel_38.Parent = ScrollingFrame
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_38.BackgroundTransparency = 0.100
+TextLabel_38.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_38.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_38.Font = Enum.Font.SourceSans
+TextLabel_38.Text = ""
+TextLabel_38.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_38.TextSize = 14.000
+TextLabel_38.TextTransparency = 1.000
+
+UICorner_75.CornerRadius = UDim.new(0, 20)
+UICorner_75.Parent = TextLabel_38
+
+ScriptName_38.Name = "ScriptName"
+ScriptName_38.Parent = TextLabel_38
+ScriptName_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_38.BackgroundTransparency = 1.000
+ScriptName_38.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_38.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_38.Font = Enum.Font.SourceSans
+ScriptName_38.Text = "White daggers"
+ScriptName_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_38.TextSize = 14.000
+
+DestructionName_38.Name = "DestructionName"
+DestructionName_38.Parent = TextLabel_38
+DestructionName_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_38.BackgroundTransparency = 1.000
+DestructionName_38.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_38.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_38.Font = Enum.Font.SourceSans
+DestructionName_38.Text = "\"Stab the children\""
+DestructionName_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_38.TextSize = 14.000
+
+TextButton_38.Parent = TextLabel_38
+TextButton_38.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_38.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_38.Size = UDim2.new(0, 81, 0, 31)
+TextButton_38.Font = Enum.Font.SourceSans
+TextButton_38.Text = "Execute"
+TextButton_38.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_38.TextSize = 14.000
+
+UICorner_76.CornerRadius = UDim.new(0, 20)
+UICorner_76.Parent = TextButton_38
+
+TextLabel_39.Parent = ScrollingFrame
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_39.BackgroundTransparency = 0.100
+TextLabel_39.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_39.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_39.Font = Enum.Font.SourceSans
+TextLabel_39.Text = ""
+TextLabel_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_39.TextSize = 14.000
+TextLabel_39.TextTransparency = 1.000
+
+UICorner_77.CornerRadius = UDim.new(0, 20)
+UICorner_77.Parent = TextLabel_39
+
+ScriptName_39.Name = "ScriptName"
+ScriptName_39.Parent = TextLabel_39
+ScriptName_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_39.BackgroundTransparency = 1.000
+ScriptName_39.Position = UDim2.new(0.091872789, 0, 0.095238097, 0)
+ScriptName_39.Size = UDim2.new(0, 66, 0, 19)
+ScriptName_39.Font = Enum.Font.SourceSans
+ScriptName_39.Text = "Shotgun with wings"
+ScriptName_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_39.TextSize = 14.000
+
+DestructionName_39.Name = "DestructionName"
+DestructionName_39.Parent = TextLabel_39
+DestructionName_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_39.BackgroundTransparency = 1.000
+DestructionName_39.Position = UDim2.new(0.0419448465, 0, 0.539682567, 0)
+DestructionName_39.Size = UDim2.new(0, 109, 0, 19)
+DestructionName_39.Font = Enum.Font.SourceSans
+DestructionName_39.Text = "\"Old script, but still fun\""
+DestructionName_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_39.TextSize = 14.000
+
+TextButton_39.Parent = TextLabel_39
+TextButton_39.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_39.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_39.Size = UDim2.new(0, 81, 0, 31)
+TextButton_39.Font = Enum.Font.SourceSans
+TextButton_39.Text = "Execute"
+TextButton_39.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_39.TextSize = 14.000
+
+UICorner_78.CornerRadius = UDim.new(0, 20)
+UICorner_78.Parent = TextButton_39
+
+TextLabel_40.Parent = ScrollingFrame
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_40.BackgroundTransparency = 0.100
+TextLabel_40.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_40.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_40.Font = Enum.Font.SourceSans
+TextLabel_40.Text = ""
+TextLabel_40.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_40.TextSize = 14.000
+TextLabel_40.TextTransparency = 1.000
+
+UICorner_79.CornerRadius = UDim.new(0, 20)
+UICorner_79.Parent = TextLabel_40
+
+ScriptName_40.Name = "ScriptName"
+ScriptName_40.Parent = TextLabel_40
+ScriptName_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_40.BackgroundTransparency = 1.000
+ScriptName_40.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_40.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_40.Font = Enum.Font.SourceSans
+ScriptName_40.Text = "Suicide gun"
+ScriptName_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_40.TextSize = 14.000
+
+DestructionName_40.Name = "DestructionName"
+DestructionName_40.Parent = TextLabel_40
+DestructionName_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_40.BackgroundTransparency = 1.000
+DestructionName_40.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_40.Size = UDim2.new(0, 90, 0, 19)
+DestructionName_40.Font = Enum.Font.SourceSans
+DestructionName_40.Text = "\"Pull the trigger\""
+DestructionName_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_40.TextSize = 14.000
+
+TextButton_40.Parent = TextLabel_40
+TextButton_40.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_40.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_40.Size = UDim2.new(0, 81, 0, 31)
+TextButton_40.Font = Enum.Font.SourceSans
+TextButton_40.Text = "Execute"
+TextButton_40.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_40.TextSize = 14.000
+
+UICorner_80.CornerRadius = UDim.new(0, 20)
+UICorner_80.Parent = TextButton_40
+
+TextLabel_41.Parent = ScrollingFrame
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_41.BackgroundTransparency = 0.100
+TextLabel_41.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_41.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_41.Font = Enum.Font.SourceSans
+TextLabel_41.Text = ""
+TextLabel_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_41.TextSize = 14.000
+TextLabel_41.TextTransparency = 1.000
+
+UICorner_81.CornerRadius = UDim.new(0, 20)
+UICorner_81.Parent = TextLabel_41
+
+ScriptName_41.Name = "ScriptName"
+ScriptName_41.Parent = TextLabel_41
+ScriptName_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_41.BackgroundTransparency = 1.000
+ScriptName_41.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_41.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_41.Font = Enum.Font.SourceSans
+ScriptName_41.Text = "C4"
+ScriptName_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_41.TextSize = 14.000
+
+DestructionName_41.Name = "DestructionName"
+DestructionName_41.Parent = TextLabel_41
+DestructionName_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_41.BackgroundTransparency = 1.000
+DestructionName_41.Position = UDim2.new(0.0706713796, 0, 0.539682567, 0)
+DestructionName_41.Size = UDim2.new(0, 124, 0, 19)
+DestructionName_41.Font = Enum.Font.SourceSans
+DestructionName_41.Text = "\"The bomb has been planted\""
+DestructionName_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_41.TextSize = 14.000
+
+TextButton_41.Parent = TextLabel_41
+TextButton_41.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_41.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_41.Size = UDim2.new(0, 81, 0, 31)
+TextButton_41.Font = Enum.Font.SourceSans
+TextButton_41.Text = "Execute"
+TextButton_41.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_41.TextSize = 14.000
+
+UICorner_82.CornerRadius = UDim.new(0, 20)
+UICorner_82.Parent = TextButton_41
+
+TextLabel_42.Parent = ScrollingFrame
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_42.BackgroundTransparency = 0.100
+TextLabel_42.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_42.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_42.Font = Enum.Font.SourceSans
+TextLabel_42.Text = ""
+TextLabel_42.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_42.TextSize = 14.000
+TextLabel_42.TextTransparency = 1.000
+
+UICorner_83.CornerRadius = UDim.new(0, 20)
+UICorner_83.Parent = TextLabel_42
+
+ScriptName_42.Name = "ScriptName"
+ScriptName_42.Parent = TextLabel_42
+ScriptName_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_42.BackgroundTransparency = 1.000
+ScriptName_42.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_42.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_42.Font = Enum.Font.SourceSans
+ScriptName_42.Text = "The hammer"
+ScriptName_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_42.TextSize = 14.000
+
+DestructionName_42.Name = "DestructionName"
+DestructionName_42.Parent = TextLabel_42
+DestructionName_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_42.BackgroundTransparency = 1.000
+DestructionName_42.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_42.Size = UDim2.new(0, 127, 0, 19)
+DestructionName_42.Font = Enum.Font.SourceSans
+DestructionName_42.Text = "\"Hit children on the head\""
+DestructionName_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_42.TextSize = 14.000
+
+TextButton_42.Parent = TextLabel_42
+TextButton_42.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_42.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_42.Size = UDim2.new(0, 81, 0, 31)
+TextButton_42.Font = Enum.Font.SourceSans
+TextButton_42.Text = "Execute"
+TextButton_42.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_42.TextSize = 14.000
+
+UICorner_84.CornerRadius = UDim.new(0, 20)
+UICorner_84.Parent = TextButton_42
+
+TextLabel_43.Parent = ScrollingFrame
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_43.BackgroundTransparency = 0.100
+TextLabel_43.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_43.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_43.Font = Enum.Font.SourceSans
+TextLabel_43.Text = ""
+TextLabel_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_43.TextSize = 14.000
+TextLabel_43.TextTransparency = 1.000
+
+UICorner_85.CornerRadius = UDim.new(0, 20)
+UICorner_85.Parent = TextLabel_43
+
+ScriptName_43.Name = "ScriptName"
+ScriptName_43.Parent = TextLabel_43
+ScriptName_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_43.BackgroundTransparency = 1.000
+ScriptName_43.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_43.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_43.Font = Enum.Font.SourceSans
+ScriptName_43.Text = "Tank"
+ScriptName_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_43.TextSize = 14.000
+
+DestructionName_43.Name = "DestructionName"
+DestructionName_43.Parent = TextLabel_43
+DestructionName_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_43.BackgroundTransparency = 1.000
+DestructionName_43.Position = UDim2.new(0, 0, 0.539682567, 0)
+DestructionName_43.Size = UDim2.new(0, 48, 0, 19)
+DestructionName_43.Font = Enum.Font.SourceSans
+DestructionName_43.Text = "\"Epic\""
+DestructionName_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_43.TextSize = 14.000
+
+TextButton_43.Parent = TextLabel_43
+TextButton_43.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_43.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_43.Size = UDim2.new(0, 81, 0, 31)
+TextButton_43.Font = Enum.Font.SourceSans
+TextButton_43.Text = "Execute"
+TextButton_43.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_43.TextSize = 14.000
+
+UICorner_86.CornerRadius = UDim.new(0, 20)
+UICorner_86.Parent = TextButton_43
+
+TextLabel_44.Parent = ScrollingFrame
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_44.BackgroundTransparency = 0.100
+TextLabel_44.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_44.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_44.Font = Enum.Font.SourceSans
+TextLabel_44.Text = ""
+TextLabel_44.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_44.TextSize = 14.000
+TextLabel_44.TextTransparency = 1.000
+
+UICorner_87.CornerRadius = UDim.new(0, 20)
+UICorner_87.Parent = TextLabel_44
+
+ScriptName_44.Name = "ScriptName"
+ScriptName_44.Parent = TextLabel_44
+ScriptName_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_44.BackgroundTransparency = 1.000
+ScriptName_44.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_44.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_44.Font = Enum.Font.SourceSans
+ScriptName_44.Text = "Shotgun"
+ScriptName_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_44.TextSize = 14.000
+
+DestructionName_44.Name = "DestructionName"
+DestructionName_44.Parent = TextLabel_44
+DestructionName_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_44.BackgroundTransparency = 1.000
+DestructionName_44.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_44.Size = UDim2.new(0, 81, 0, 19)
+DestructionName_44.Font = Enum.Font.SourceSans
+DestructionName_44.Text = "\"Shotgun thing\""
+DestructionName_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_44.TextSize = 14.000
+
+TextButton_44.Parent = TextLabel_44
+TextButton_44.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_44.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_44.Size = UDim2.new(0, 81, 0, 31)
+TextButton_44.Font = Enum.Font.SourceSans
+TextButton_44.Text = "Execute"
+TextButton_44.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_44.TextSize = 14.000
+
+UICorner_88.CornerRadius = UDim.new(0, 20)
+UICorner_88.Parent = TextButton_44
+
+TextLabel_45.Parent = ScrollingFrame
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_45.BackgroundTransparency = 0.100
+TextLabel_45.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_45.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_45.Font = Enum.Font.SourceSans
+TextLabel_45.Text = ""
+TextLabel_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_45.TextSize = 14.000
+TextLabel_45.TextTransparency = 1.000
+
+UICorner_89.CornerRadius = UDim.new(0, 20)
+UICorner_89.Parent = TextLabel_45
+
+ScriptName_45.Name = "ScriptName"
+ScriptName_45.Parent = TextLabel_45
+ScriptName_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_45.BackgroundTransparency = 1.000
+ScriptName_45.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_45.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_45.Font = Enum.Font.SourceSans
+ScriptName_45.Text = "Knife"
+ScriptName_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_45.TextSize = 14.000
+
+DestructionName_45.Name = "DestructionName"
+DestructionName_45.Parent = TextLabel_45
+DestructionName_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_45.BackgroundTransparency = 1.000
+DestructionName_45.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_45.Size = UDim2.new(0, 81, 0, 19)
+DestructionName_45.Font = Enum.Font.SourceSans
+DestructionName_45.Text = "\"Stabby stab\""
+DestructionName_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_45.TextSize = 14.000
+
+TextButton_45.Parent = TextLabel_45
+TextButton_45.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_45.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_45.Size = UDim2.new(0, 81, 0, 31)
+TextButton_45.Font = Enum.Font.SourceSans
+TextButton_45.Text = "Execute"
+TextButton_45.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_45.TextSize = 14.000
+
+UICorner_90.CornerRadius = UDim.new(0, 20)
+UICorner_90.Parent = TextButton_45
+
+TextLabel_46.Parent = ScrollingFrame
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_46.BackgroundTransparency = 0.100
+TextLabel_46.Position = UDim2.new(-0.039930556, 0, -7.69230792e-06, 0)
+TextLabel_46.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_46.Font = Enum.Font.SourceSans
+TextLabel_46.Text = ""
+TextLabel_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_46.TextSize = 14.000
+TextLabel_46.TextTransparency = 1.000
+
+UICorner_91.CornerRadius = UDim.new(0, 20)
+UICorner_91.Parent = TextLabel_46
+
+ScriptName_46.Name = "ScriptName"
+ScriptName_46.Parent = TextLabel_46
+ScriptName_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_46.BackgroundTransparency = 1.000
+ScriptName_46.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_46.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_46.Font = Enum.Font.SourceSans
+ScriptName_46.Text = "Killbot"
+ScriptName_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_46.TextSize = 14.000
+
+DestructionName_46.Name = "DestructionName"
+DestructionName_46.Parent = TextLabel_46
+DestructionName_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_46.BackgroundTransparency = 1.000
+DestructionName_46.Position = UDim2.new(0.0419448465, 0, 0.539682567, 0)
+DestructionName_46.Size = UDim2.new(0, 70, 0, 19)
+DestructionName_46.Font = Enum.Font.SourceSans
+DestructionName_46.Text = "\"Pretty cool\""
+DestructionName_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_46.TextSize = 14.000
+
+TextButton_46.Parent = TextLabel_46
+TextButton_46.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_46.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_46.Size = UDim2.new(0, 81, 0, 31)
+TextButton_46.Font = Enum.Font.SourceSans
+TextButton_46.Text = "Execute"
+TextButton_46.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_46.TextSize = 14.000
+
+UICorner_92.CornerRadius = UDim.new(0, 20)
+UICorner_92.Parent = TextButton_46
+
+TextLabel_47.Parent = ScrollingFrame
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_47.BackgroundTransparency = 0.100
+TextLabel_47.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_47.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_47.Font = Enum.Font.SourceSans
+TextLabel_47.Text = ""
+TextLabel_47.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_47.TextSize = 14.000
+TextLabel_47.TextTransparency = 1.000
+
+UICorner_93.CornerRadius = UDim.new(0, 20)
+UICorner_93.Parent = TextLabel_47
+
+ScriptName_47.Name = "ScriptName"
+ScriptName_47.Parent = TextLabel_47
+ScriptName_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_47.BackgroundTransparency = 1.000
+ScriptName_47.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_47.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_47.Font = Enum.Font.SourceSans
+ScriptName_47.Text = "Rocket launcher"
+ScriptName_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_47.TextSize = 14.000
+
+DestructionName_47.Name = "DestructionName"
+DestructionName_47.Parent = TextLabel_47
+DestructionName_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_47.BackgroundTransparency = 1.000
+DestructionName_47.Position = UDim2.new(0.038869258, 0, 0.539682567, 0)
+DestructionName_47.Size = UDim2.new(0, 70, 0, 19)
+DestructionName_47.Font = Enum.Font.SourceSans
+DestructionName_47.Text = "\"Really fun\""
+DestructionName_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_47.TextSize = 14.000
+
+TextButton_47.Parent = TextLabel_47
+TextButton_47.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_47.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_47.Size = UDim2.new(0, 81, 0, 31)
+TextButton_47.Font = Enum.Font.SourceSans
+TextButton_47.Text = "Execute"
+TextButton_47.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_47.TextSize = 14.000
+
+UICorner_94.CornerRadius = UDim.new(0, 20)
+UICorner_94.Parent = TextButton_47
+
+TextLabel_48.Parent = ScrollingFrame
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_48.BackgroundTransparency = 0.100
+TextLabel_48.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_48.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_48.Font = Enum.Font.SourceSans
+TextLabel_48.Text = ""
+TextLabel_48.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_48.TextSize = 14.000
+TextLabel_48.TextTransparency = 1.000
+
+UICorner_95.CornerRadius = UDim.new(0, 20)
+UICorner_95.Parent = TextLabel_48
+
+ScriptName_48.Name = "ScriptName"
+ScriptName_48.Parent = TextLabel_48
+ScriptName_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_48.BackgroundTransparency = 1.000
+ScriptName_48.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_48.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_48.Font = Enum.Font.SourceSans
+ScriptName_48.Text = "Elisso blassio"
+ScriptName_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_48.TextSize = 14.000
+
+DestructionName_48.Name = "DestructionName"
+DestructionName_48.Parent = TextLabel_48
+DestructionName_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_48.BackgroundTransparency = 1.000
+DestructionName_48.Position = UDim2.new(0.0636042431, 0, 0.539682567, 0)
+DestructionName_48.Size = UDim2.new(0, 51, 0, 19)
+DestructionName_48.Font = Enum.Font.SourceSans
+DestructionName_48.Text = "\"Mob boss\""
+DestructionName_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_48.TextSize = 14.000
+
+TextButton_48.Parent = TextLabel_48
+TextButton_48.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_48.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_48.Size = UDim2.new(0, 81, 0, 31)
+TextButton_48.Font = Enum.Font.SourceSans
+TextButton_48.Text = "Execute"
+TextButton_48.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_48.TextSize = 14.000
+
+UICorner_96.CornerRadius = UDim.new(0, 20)
+UICorner_96.Parent = TextButton_48
+
+TextLabel_49.Parent = ScrollingFrame
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextLabel_49.BackgroundTransparency = 0.100
+TextLabel_49.Position = UDim2.new(0.00868055597, 0, 0, 0)
+TextLabel_49.Size = UDim2.new(0, 283, 0, 63)
+TextLabel_49.Font = Enum.Font.SourceSans
+TextLabel_49.Text = ""
+TextLabel_49.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_49.TextSize = 14.000
+TextLabel_49.TextTransparency = 1.000
+
+UICorner_97.CornerRadius = UDim.new(0, 20)
+UICorner_97.Parent = TextLabel_49
+
+ScriptName_49.Name = "ScriptName"
+ScriptName_49.Parent = TextLabel_49
+ScriptName_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_49.BackgroundTransparency = 1.000
+ScriptName_49.Position = UDim2.new(0.0388692617, 0, 0.095238097, 0)
+ScriptName_49.Size = UDim2.new(0, 81, 0, 19)
+ScriptName_49.Font = Enum.Font.SourceSans
+ScriptName_49.Text = "Killer"
+ScriptName_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_49.TextSize = 14.000
+
+DestructionName_49.Name = "DestructionName"
+DestructionName_49.Parent = TextLabel_49
+DestructionName_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_49.BackgroundTransparency = 1.000
+DestructionName_49.Position = UDim2.new(0.091872789, 0, 0.539682567, 0)
+DestructionName_49.Size = UDim2.new(0, 56, 0, 19)
+DestructionName_49.Font = Enum.Font.SourceSans
+DestructionName_49.Text = "\"Watch your back\""
+DestructionName_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestructionName_49.TextSize = 14.000
+
+TextButton_49.Parent = TextLabel_49
+TextButton_49.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_49.Position = UDim2.new(0.624983728, 0, 0.253968239, 0)
+TextButton_49.Size = UDim2.new(0, 81, 0, 31)
+TextButton_49.Font = Enum.Font.SourceSans
+TextButton_49.Text = "Execute"
+TextButton_49.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_49.TextSize = 14.000
+
+UICorner_98.CornerRadius = UDim.new(0, 20)
+UICorner_98.Parent = TextButton_49
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = Frame
+DropShadow.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0, 0, 0, 1)
+DropShadow.Size = UDim2.new(0.985835671, 10, 0.970270276, 10)
+DropShadow.ZIndex = -5
+DropShadow.Image = "rbxassetid://297694300"
+DropShadow.ImageColor3 = Color3.fromRGB(255, 85, 0)
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(95, 103, 894, 902)
+DropShadow.SliceScale = 0.050
+
+TextButton_50.Parent = Frame
+TextButton_50.BackgroundColor3 = Color3.fromRGB(185, 61, 0)
+TextButton_50.Position = UDim2.new(0.928242207, 0, 0.0324324369, 0)
+TextButton_50.Size = UDim2.new(0, 17, 0, 17)
+TextButton_50.Font = Enum.Font.SourceSans
+TextButton_50.Text = ""
+TextButton_50.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_50.TextSize = 14.000
+
+UICorner_99.CornerRadius = UDim.new(0, 100)
+UICorner_99.Parent = TextButton_50
+
+TextButton_51.Parent = Frame
+TextButton_51.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_51.Position = UDim2.new(0.862150252, 0, 0.0324324369, 0)
+TextButton_51.Size = UDim2.new(0, 17, 0, 17)
+TextButton_51.Font = Enum.Font.SourceSans
+TextButton_51.Text = ""
+TextButton_51.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton_51.TextSize = 14.000
+
+UICorner_100.CornerRadius = UDim.new(0, 100)
+UICorner_100.Parent = TextButton_51
+
+TextLabel_50.Parent = Frame
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(170, 85, 0)
+TextLabel_50.BorderSizePixel = 0
+TextLabel_50.Position = UDim2.new(0.0242156126, 0, 0.106029697, 0)
+TextLabel_50.Size = UDim2.new(0, 336, 0, 2)
+TextLabel_50.Font = Enum.Font.SourceSans
+TextLabel_50.Text = ""
+TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.TextSize = 19.000
+TextLabel_50.TextWrapped = true
+
+name.Name = "name"
+name.Parent = Frame
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.Position = UDim2.new(0.0213827509, 0, 0.0205075238, 0)
+name.Size = UDim2.new(0, 75, 0, 26)
+name.Font = Enum.Font.SourceSans
+name.Text = "WireWare"
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextSize = 19.000
+
+version.Name = "version"
+version.Parent = Frame
+version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+version.BackgroundTransparency = 1.000
+version.Position = UDim2.new(0.206798866, 0, 0.0205075238, 0)
+version.Size = UDim2.new(0, 48, 0, 26)
+version.Font = Enum.Font.SourceSans
+version.Text = "V3.09"
+version.TextColor3 = Color3.fromRGB(255, 85, 0)
+version.TextSize = 19.000
+
+DropShadow_2.Name = "DropShadow"
+DropShadow_2.Parent = Frame
+DropShadow_2.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+DropShadow_2.BackgroundTransparency = 1.000
+DropShadow_2.BorderSizePixel = 0
+DropShadow_2.Position = UDim2.new(0, 0, 0, 1)
+DropShadow_2.Size = UDim2.new(0.985835671, 10, 0.970270276, 10)
+DropShadow_2.ZIndex = -5
+DropShadow_2.Image = "rbxassetid://297694300"
+DropShadow_2.ImageColor3 = Color3.fromRGB(255, 85, 0)
+DropShadow_2.ScaleType = Enum.ScaleType.Slice
+DropShadow_2.SliceCenter = Rect.new(95, 103, 894, 902)
+DropShadow_2.SliceScale = 0.050
+
+-- Scripts:
+
+local function ENEACYO_fake_script() -- SearchBarScripts.LocalScript 
+	local script = Instance.new('LocalScript', SearchBarScripts)
+
+	local scroll = script.Parent.Parent.ScrollingFrame -- CHANGE THIS TO YOUR SCROLLING FRAME
+	local textBox = script.Parent -- CHANGE THIS TO YOUR TEXT BOX
+	
+	textBox.Changed:Connect(function() -- when the text is changed
+		local text = textBox.Text:lower() -- lowercase search bar text
+		if text ~= "" then -- if it has text
+			local buttons = scroll:GetDescendants() -- all of the buttons
+			for _, button in pairs(buttons) do -- loops through the buttons
+				if button:IsA("TextLabel") and button.name == "ScriptName" then -- if it's a button
+					local buttonText = button.Text:lower() -- lowercase button text
+					if string.find(buttonText, text) then -- if search bar text is found in the button's text
+						button.Parent.Visible = true -- shows button
+					else -- otherwise
+						button.Parent.Visible = false -- hides button
+					end
+				end
+			end
+		else -- if it's empty
+			local buttons = scroll:GetDescendants() -- all buttons
+			for _, button in pairs(buttons) do -- loops through buttons
+				if button:IsA("TextLabel") and button.name == "ScriptName" then
+						button.Parent.Visible = true	
+				end
+			end
+			
+		end
+	end)
+end
+coroutine.wrap(ENEACYO_fake_script)()
+local function XDUVUFN_fake_script() -- ScriptName.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(XDUVUFN_fake_script)()
+local function LFFJZQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/GrabKnifeV3'))()
+	end)
+end
+coroutine.wrap(LFFJZQ_fake_script)()
+local function ZVKRBH_fake_script() -- ScriptName_2.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_2)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(ZVKRBH_fake_script)()
+local function TTNG_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/bigblack'))()
+	end)
+end
+coroutine.wrap(TTNG_fake_script)()
+local function EUXIG_fake_script() -- ScriptName_3.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_3)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(EUXIG_fake_script)()
+local function ENFPXR_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/scp'))()
+	end)
+end
+coroutine.wrap(ENFPXR_fake_script)()
+local function PJVOHR_fake_script() -- ScriptName_4.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_4)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(PJVOHR_fake_script)()
+local function KZZUTZ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/eyezen'))()
+	end)
+end
+coroutine.wrap(KZZUTZ_fake_script)()
+local function NENO_fake_script() -- ScriptName_5.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_5)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(NENO_fake_script)()
+local function GIVTA_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/warden'))()
+	end)
+end
+coroutine.wrap(GIVTA_fake_script)()
+local function YBOSYX_fake_script() -- ScriptName_6.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_6)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(YBOSYX_fake_script)()
+local function JKPPGLV_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/The%20Mask'))()
+	end)
+end
+coroutine.wrap(JKPPGLV_fake_script)()
+local function PWFGDV_fake_script() -- ScriptName_7.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_7)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(PWFGDV_fake_script)()
+local function IFZRDV_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Angel'))()
+	end)
+end
+coroutine.wrap(IFZRDV_fake_script)()
+local function XAZKOYR_fake_script() -- ScriptName_8.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_8)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(XAZKOYR_fake_script)()
+local function YURX_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Sun'))()
+	end)
+end
+coroutine.wrap(YURX_fake_script)()
+local function MKCR_fake_script() -- ScriptName_9.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_9)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(MKCR_fake_script)()
+local function RMSS_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/cop'))()
+	end)
+end
+coroutine.wrap(RMSS_fake_script)()
+local function YJCYHF_fake_script() -- ScriptName_10.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_10)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(YJCYHF_fake_script)()
+local function JEOWULL_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/dragonstand'))()
+	end)
+end
+coroutine.wrap(JEOWULL_fake_script)()
+local function JZRJV_fake_script() -- ScriptName_11.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_11)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(JZRJV_fake_script)()
+local function FMBIMS_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/ASSSS'))()
+	end)
+end
+coroutine.wrap(FMBIMS_fake_script)()
+local function EPAYZE_fake_script() -- ScriptName_12.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_12)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(EPAYZE_fake_script)()
+local function MHPBT_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/zenithrifile'))()
+	end)
+end
+coroutine.wrap(MHPBT_fake_script)()
+local function CTTK_fake_script() -- ScriptName_13.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_13)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(CTTK_fake_script)()
+local function EDDR_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/banhammer'))()
+	end)
+end
+coroutine.wrap(EDDR_fake_script)()
+local function JLPVGS_fake_script() -- ScriptName_14.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_14)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(JLPVGS_fake_script)()
+local function EYNU_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/big%20sword'))()
+	end)
+end
+coroutine.wrap(EYNU_fake_script)()
+local function FLDOX_fake_script() -- ScriptName_15.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_15)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(FLDOX_fake_script)()
+local function DUCFY_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/godslayer'))()
+	end)
+end
+coroutine.wrap(DUCFY_fake_script)()
+local function DDXVIW_fake_script() -- ScriptName_16.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_16)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(DDXVIW_fake_script)()
+local function UJRBEF_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/caducus'))()
+	end)
+end
+coroutine.wrap(UJRBEF_fake_script)()
+local function MHGA_fake_script() -- ScriptName_17.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_17)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(MHGA_fake_script)()
+local function TDKUZVF_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/claws'))()
+	end)
+end
+coroutine.wrap(TDKUZVF_fake_script)()
+local function BKNTFPB_fake_script() -- ScriptName_18.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_18)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(BKNTFPB_fake_script)()
+local function BJHAGWL_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/starGlitcher'))()
+	end)
+end
+coroutine.wrap(BJHAGWL_fake_script)()
+local function FSLT_fake_script() -- ScriptName_19.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_19)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(FSLT_fake_script)()
+local function GJGOLRL_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/madiikFlameThrower'))()
+	end)
+end
+coroutine.wrap(GJGOLRL_fake_script)()
+local function WIALO_fake_script() -- ScriptName_20.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_20)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(WIALO_fake_script)()
+local function CMPUD_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/grabknifev4'))()
+	end)
+end
+coroutine.wrap(CMPUD_fake_script)()
+local function XHEAOQV_fake_script() -- ScriptName_21.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_21)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(XHEAOQV_fake_script)()
+local function VIGEJ_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/omnigod'))()
+	end)
+end
+coroutine.wrap(VIGEJ_fake_script)()
+local function UMFA_fake_script() -- ScriptName_22.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_22)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(UMFA_fake_script)()
+local function ZSBY_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/magicman'))()
+	end)
+end
+coroutine.wrap(ZSBY_fake_script)()
+local function RIKGP_fake_script() -- ScriptName_23.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_23)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(RIKGP_fake_script)()
+local function HUWP_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/darthvadar'))()
+	end)
+end
+coroutine.wrap(HUWP_fake_script)()
+local function MYNA_fake_script() -- ScriptName_24.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_24)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(MYNA_fake_script)()
+local function YCFMAU_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/Johndoe'))()
+	end)
+end
+coroutine.wrap(YCFMAU_fake_script)()
+local function UJTSST_fake_script() -- ScriptName_25.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_25)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(UJTSST_fake_script)()
+local function JLQXYA_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/overseer'))()
+	end)
+end
+coroutine.wrap(JLQXYA_fake_script)()
+local function BTGFTFV_fake_script() -- ScriptName_26.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_26)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(BTGFTFV_fake_script)()
+local function TEDH_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/echo'))()
+	end)
+end
+coroutine.wrap(TEDH_fake_script)()
+local function OHPQ_fake_script() -- ScriptName_27.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_27)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(OHPQ_fake_script)()
+local function BGAW_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/guns3'))()
+	end)
+end
+coroutine.wrap(BGAW_fake_script)()
+local function RKWYQSU_fake_script() -- ScriptName_28.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_28)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(RKWYQSU_fake_script)()
+local function CFULAPR_fake_script() -- TextButton_28.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_28)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/sniper'))()
+	end)
+end
+coroutine.wrap(CFULAPR_fake_script)()
+local function BPCS_fake_script() -- ScriptName_29.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_29)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(BPCS_fake_script)()
+local function LANHPXU_fake_script() -- TextButton_29.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_29)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Scythe'))()
+	end)
+end
+coroutine.wrap(LANHPXU_fake_script)()
+local function ZXBUV_fake_script() -- ScriptName_30.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_30)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(ZXBUV_fake_script)()
+local function AITLDQ_fake_script() -- TextButton_30.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_30)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/drone'))()
+	end)
+end
+coroutine.wrap(AITLDQ_fake_script)()
+local function QNXNGP_fake_script() -- ScriptName_31.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_31)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(QNXNGP_fake_script)()
+local function PRNPSE_fake_script() -- TextButton_31.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_31)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/rainbowking'))()
+	end)
+end
+coroutine.wrap(PRNPSE_fake_script)()
+local function ZZCZLS_fake_script() -- ScriptName_32.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_32)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(ZZCZLS_fake_script)()
+local function GJUTTTX_fake_script() -- TextButton_32.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_32)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/minigun'))()
+	end)
+end
+coroutine.wrap(GJUTTTX_fake_script)()
+local function LGJV_fake_script() -- ScriptName_33.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_33)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(LGJV_fake_script)()
+local function TFWX_fake_script() -- TextButton_33.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_33)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/SharpShooter'))()
+	end)
+end
+coroutine.wrap(TFWX_fake_script)()
+local function FHJUMCC_fake_script() -- ScriptName_34.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_34)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(FHJUMCC_fake_script)()
+local function AEXD_fake_script() -- TextButton_34.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_34)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/ScytheV2'))()
+	end)
+end
+coroutine.wrap(AEXD_fake_script)()
+local function BLUWHYE_fake_script() -- ScriptName_35.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_35)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(BLUWHYE_fake_script)()
+local function RXMH_fake_script() -- TextButton_35.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_35)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/wings'))()
+	end)
+end
+coroutine.wrap(RXMH_fake_script)()
+local function UHAABH_fake_script() -- ScriptName_36.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_36)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(UHAABH_fake_script)()
+local function HFID_fake_script() -- TextButton_36.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_36)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/MechSuit'))()
+	end)
+end
+coroutine.wrap(HFID_fake_script)()
+local function QVAEYAV_fake_script() -- ScriptName_37.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_37)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(QVAEYAV_fake_script)()
+local function PBBZW_fake_script() -- TextButton_37.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_37)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/MatteoFlameThrower'))()
+	end)
+end
+coroutine.wrap(PBBZW_fake_script)()
+local function OWNZI_fake_script() -- ScriptName_38.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_38)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(OWNZI_fake_script)()
+local function QYTSYB_fake_script() -- TextButton_38.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_38)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/daggers'))()
+	end)
+end
+coroutine.wrap(QYTSYB_fake_script)()
+local function EFAARSB_fake_script() -- ScriptName_39.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_39)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(EFAARSB_fake_script)()
+local function VEHYOU_fake_script() -- TextButton_39.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_39)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/shotgunwithwings'))()
+	end)
+end
+coroutine.wrap(VEHYOU_fake_script)()
+local function JHKXZXP_fake_script() -- ScriptName_40.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_40)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(JHKXZXP_fake_script)()
+local function IYSUKO_fake_script() -- TextButton_40.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_40)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/suicidegun'))()
+	end)
+end
+coroutine.wrap(IYSUKO_fake_script)()
+local function THEIRB_fake_script() -- ScriptName_41.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_41)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(THEIRB_fake_script)()
+local function VNSHWJ_fake_script() -- TextButton_41.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_41)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/c4'))()
+	end)
+end
+coroutine.wrap(VNSHWJ_fake_script)()
+local function LBSFKQT_fake_script() -- ScriptName_42.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_42)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(LBSFKQT_fake_script)()
+local function JJCZQ_fake_script() -- TextButton_42.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_42)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/TheHameer'))()
+	end)
+end
+coroutine.wrap(JJCZQ_fake_script)()
+local function MPBI_fake_script() -- ScriptName_43.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_43)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(MPBI_fake_script)()
+local function ZFOZRWP_fake_script() -- TextButton_43.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_43)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Tank'))()
+	end)
+end
+coroutine.wrap(ZFOZRWP_fake_script)()
+local function PNDU_fake_script() -- ScriptName_44.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_44)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(PNDU_fake_script)()
+local function OWOMDL_fake_script() -- TextButton_44.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_44)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/shotgun1'))()
+	end)
+end
+coroutine.wrap(OWOMDL_fake_script)()
+local function GKQMG_fake_script() -- ScriptName_45.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_45)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(GKQMG_fake_script)()
+local function NNSULNY_fake_script() -- TextButton_45.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_45)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/knife'))()
+	end)
+end
+coroutine.wrap(NNSULNY_fake_script)()
+local function MMNJH_fake_script() -- ScriptName_46.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_46)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(MMNJH_fake_script)()
+local function JNHQCWB_fake_script() -- TextButton_46.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_46)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/killbot'))()
+	end)
+end
+coroutine.wrap(JNHQCWB_fake_script)()
+local function JSTIVBO_fake_script() -- ScriptName_47.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_47)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(JSTIVBO_fake_script)()
+local function QXKJ_fake_script() -- TextButton_47.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_47)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/rpg'))()
+	end)
+end
+coroutine.wrap(QXKJ_fake_script)()
+local function GDTJBNF_fake_script() -- ScriptName_48.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_48)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(GDTJBNF_fake_script)()
+local function KSLP_fake_script() -- TextButton_48.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_48)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/elissoblassio'))()
+	end)
+end
+coroutine.wrap(KSLP_fake_script)()
+local function LVGM_fake_script() -- ScriptName_49.LocalScript 
+	local script = Instance.new('LocalScript', ScriptName_49)
+
+	script.Parent.Parent.Text = script.Parent.Text
+end
+coroutine.wrap(LVGM_fake_script)()
+local function SBKEH_fake_script() -- TextButton_49.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_49)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/elissoblassio'))()
+	end)
+end
+coroutine.wrap(SBKEH_fake_script)()
+local function GOKTVGM_fake_script() -- TextButton_49.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_49)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Mad%20man'))()
+	end)
+end
+coroutine.wrap(GOKTVGM_fake_script)()
+local function FUAWTBZ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(FUAWTBZ_fake_script)()
+local function SHRS_fake_script() -- TextButton_50.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_50)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(SHRS_fake_script)()
+local function SOGCGQ_fake_script() -- LocalScript 
+	local script = Instance.new('LocalScript', Utg)
+
+	Utg.Parent = game.CoreGui
+end
+coroutine.wrap(SOGCGQ_fake_script)()
